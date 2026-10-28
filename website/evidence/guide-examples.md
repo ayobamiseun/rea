@@ -119,3 +119,29 @@ page later gained the site's shared `↑ Top` navigation; its `export.js` and
 | `examples/notes-web/export.js`         | `66f5c2501bfca72eb743a1fffbdce9a58d295e69ca66f19562e9b0fa9fc189a6` |
 | `examples/notes-web/index.html`        | `97bb4729dcd838de8adae7a00eb49df0dbe8a7b73becc1c7d2a6662825013064` |
 | `examples/notes-web/notes.json`        | `9fc1155e251cfbed09dadca6b195507072fffe3f602564812d644ab27c422282` |
+
+## Renderer excerpt update — 28 October 2026
+
+Commit `5938581b37` changed `examples/notes-electron/renderer.js` to call an
+`exportNotes` helper and report a rejected export; its SHA-256 is now
+`95db830a86cf8ea7ae95f273568e6cde3072c9992ce99394b7507ba13d2dcc42`. The
+Electron guide's displayed `renderer.js` excerpt now shows this current source.
+The digest table above keeps the original analysis checkpoint, whose renderer
+the guide displayed until this update.
+
+The current six files were analyzed again with a REA source build at
+`3b242491a` (package version 6.8.0), Node.js 24.22.1 on macOS arm64:
+
+```sh
+node scripts/rea.mjs analyze-javascript-application \
+  website/public/examples/notes-electron --json
+```
+
+It exited 0 and reported four parsed JavaScript files, zero parse failures, one
+exposed API member, one literal IPC channel, one renderer transmission, one main
+handler, one paired transmission and zero ambiguous transmissions, matching the
+guide's `summary.ipc` excerpt. The 4.1.0 recording above remains the guide's
+attributed result.
+
+- Evidence ID: `ev_bdec1ea5a9befae2d7246fd96bbe2be1709f0ef6069e0448ed832a4678523343`.
+- Root artifact SHA-256: `97540263ab87c02e5ce24cea7e1b5c308a941e621f9490203c2bafce8e8b08e0`.
