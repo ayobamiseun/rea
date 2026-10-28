@@ -277,8 +277,10 @@ and compile timeout, logging level and explicitly configured reference-secret
 patterns. A provider being unavailable does not discard its selected paths;
 doctor reports its readiness separately. Explicit selections override discovered
 defaults, including when setup runs again with a changed selection. Unrelated
-environment variables, process ownership tokens and one-shot target paths are not
-copied. Existing client environment overrides remain intact unless setup supplies
+environment variables, process ownership tokens and the one-shot
+`HOPPER_TARGET_PATH` and `HOPPER_TARGET_KIND` launch settings are not copied;
+an explicit `HOPPER_LOADER_ARGS_JSON` is forwarded (see
+[initial target and loader settings](installation.md#initial-target-and-loader-settings)). Existing client environment overrides remain intact unless setup supplies
 the same key.
 You can edit `startupTimeoutMs` and `toolTimeoutMs` there; doctor keeps positive
 caller-selected values aligned and reports a non-blocking advisory when a tool

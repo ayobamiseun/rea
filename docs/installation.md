@@ -926,7 +926,8 @@ selected only when it is the arm64 family's only candidate. REA checks the
 entire source's SHA-256 while copying the slice; source identity and reported
 offsets still refer to the original container. Any other ambiguous architecture
 subtype requires an explicitly extracted thin image; REA does not guess.
-Configured loader arguments remain explicit overrides.
+Configured loader arguments remain explicit overrides; see
+[Initial target and loader settings](#initial-target-and-loader-settings).
 FAT64 is distinct from the CPU architecture: FAT32 containers can contain 64-bit
 executable images. This preparation avoids the Raw Binary loader dialog observed
 with native FAT64 loading on Hopper 6.1.0-demo.
@@ -968,6 +969,49 @@ Export the Evidence bundle before `close_binary` clears session records.
 `binary_session.cleanup_pending` remains true while provider cleanup is retained,
 and provider health remains visible even with `open: false`; that flag alone
 does not establish successful cleanup.
+
+### Initial target and loader settings
+
+The environment that starts `rea mcp` can select a startup target and override
+Hopper's loader arguments. Target-free sessions do not need these settings;
+select targets with `open_binary` instead.
+
+- `HOPPER_TARGET_PATH` (optional): a target that REA opens before MCP serving
+  starts. The open uses the same session as `open_binary`, including the
+  configured provider selection; the MCP transport starts only after it
+  succeeds. If the open fails, REA logs the error, prints its message on
+  stderr, and exits with status 1. A shutdown request during the open cancels
+  it and exits with status 0. Use an absolute path.
+- `HOPPER_TARGET_KIND` (optional, default `executable`): the kind of that
+  startup target, `executable` or `database`; any other value fails
+  configuration validation. The startup open always passes this kind, so a
+  saved Hopper database must select `database` explicitly; the `.hop` suffix
+  inference that `open_binary` applies does not run here. On macOS, REA
+  currently declines saved database targets, as described above.
+- `HOPPER_LOADER_ARGS_JSON` (optional): a JSON array of strings, for example
+  `["-l","Mach-O","--aarch64"]`, that replaces the loader arguments REA derives
+  from the target. The value must be valid JSON and must encode an array of
+  strings without NUL bytes; configuration validation names the violated
+  constraint. Empty elements are preserved. An empty array keeps the derived
+  arguments and is the same as leaving the setting unset. A nonempty array
+  applies to every target Hopper opens for that server: the analysis profile records
+  `loader.source: "configured_override"` instead of `"derived"`, REA does not
+  prepare a thin Mach-O slice from a FAT container and loads the whole file
+  instead, and the arguments are placed before `--analysis` in the launcher
+  command.
+  The override does not bypass target admission or loader derivation; a
+  target whose derived arguments fail still fails to open.
+
+`rea setup` forwards an explicitly set `HOPPER_LOADER_ARGS_JSON` into the
+proposed client registration and reports an invalid value as a configuration
+problem before planning changes. It does not copy `HOPPER_TARGET_PATH` or
+`HOPPER_TARGET_KIND`: they are one-shot launch settings, and a registration
+that carried them would open that target at every server start. `rea mcp
+doctor` removes all three settings from the environment of its target-free
+probe. From a source checkout,
+`node scripts/print-mcp-config.mjs /absolute/target [--kind database] [--loader-args '<json>']`
+prints a registration with these settings filled in; the script is not part of
+the npm package.
 
 ### Hopper in CI
 
