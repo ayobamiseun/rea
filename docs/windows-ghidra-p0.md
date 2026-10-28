@@ -19,7 +19,7 @@ additional permission flag or degraded mode is required.
 - a 64-bit full JDK inside that installation's declared Java range (JDK 21 or newer, with no maximum, for current 12.1 releases);
 - an explicit native, non-managed x86, x86-64, ARMNT (Thumb-2) or ARM64 PE application/DLL, or a
   [raw NMOS 6502 image](raw-binary.md#nmos-6502) with a caller-supplied entry; and
-- the 26 read-only Ghidra inventory, memory, and function-analysis operations.
+- the 27 read-only Ghidra inventory, memory, binary-overview, and function-analysis operations.
 
 Loaded memory reads and file offsets preserve Ghidra's observed source mappings.
 PE load-image inspection returns an explicit unsupported attestation status.
@@ -158,7 +158,8 @@ compiler-produced programs. ARM64EC (machine 0xA641) and ARM64X are not admitted
 this target support does not establish Windows-on-Arm host support.
 
 Real Windows x64 verification with Ghidra 12.1.4 and JDK 21 completed the ARM64
-application and ARMNT/Thumb DLL fixtures' 26 read-only operations, constant-return
+application and ARMNT/Thumb DLL fixtures' 26 read-only operations admitted at
+that revision (before the binary-overview aggregate was added), constant-return
 decompilation, byte searches, CLI/MCP file-offset parity, source identity, and
 owned cleanup. The DLL fixture also verifies the exported caller/callee
 relationship. The x86/x64 compact-reference value-flow battery does not cover

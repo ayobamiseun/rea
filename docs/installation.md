@@ -1018,8 +1018,10 @@ reported as incompatible instead of being admitted from its directory name, and
 a header that cannot be read or recognized is reported as unknown. REA does not
 build or install native tools, or change Gatekeeper quarantine settings.
 
-The adapter exposes 26 read-only operations: fourteen inventory/name/search
-operations and twelve function-analysis operations. These cover metadata,
+The adapter exposes 27 read-only operations: fifteen inventory, name, search,
+memory and binary-overview operations and twelve function-analysis operations.
+The inventory and function registries in `src/ghidra/`, without their naming
+and annotation writes, own this list. These cover metadata,
 decompilation, assembly, resolved calls, typed references, xrefs, function
 dossiers, instructions, recovered data types, measured load mappings, loaded
 memory bytes, and observed file offsets. Independent load-image attestation
@@ -1552,8 +1554,9 @@ On a controlled Windows x64 runner, use
 `npm run verify:ghidra:windows`. The verifier generates a deterministic native
 PE fixture from source bytes and requires the Windows native authority before
 opening the provider. The controls are implemented on main; see the
-[release boundary](#released-package-and-main). The lane verifies all 26 admitted
-read-only operations, digest identity, and runtime cleanup. The separate
+[release boundary](#released-package-and-main). The lane verifies every admitted
+read-only operation in the adapter's source registries (27 at this revision),
+digest identity, and runtime cleanup. The separate
 `verify:ghidra:windows:package` lane checks the packed CLI/MCP boundary with an
 ordinary user. It requires the built Windows native bundle and an existing
 Ghidra/JDK installation; neither is inferred from startup alone.
