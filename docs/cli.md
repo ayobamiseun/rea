@@ -178,6 +178,19 @@ file your shell reads, or have that file source `~/.bashrc`. Remove the command
 from the startup file to stop loading completion, and run `complete -r rea` to
 remove the registration from the current shell. These are manual, opt-in
 steps.
+
+For Zsh, initialize the completion system before loading the hook. The hook
+registers through `compdef`, which exists only after `compinit`; evaluated
+earlier, it prints `command not found: compdef` and registers nothing:
+
+```zsh
+autoload -Uz compinit && compinit
+eval "$(rea completions zsh)"
+```
+
+In `~/.zshrc`, place the `eval` line after an existing `compinit` call when a
+framework or earlier configuration already runs one. Remove the line from the
+startup file to stop loading completion.
 Completion is a discovery aid; use `rea COMMAND --help` to confirm the
 available options and subcommands.
 
