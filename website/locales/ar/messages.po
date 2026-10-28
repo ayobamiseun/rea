@@ -75,7 +75,7 @@ msgstr "بواسطة N0zoM1z0 * 10 أكتوبر 2026"
 #: website/public/guides/browser/index.html:516
 #: website/public/guides/index.html:310
 #: website/public/guides/javascript/index.html:512
-#: website/public/guides/native/index.html:518
+#: website/public/guides/native/index.html:521
 #: website/public/guides/rl-environments/index.html:507
 #: website/public/index.html:1312 website/public/showcase/aegis/index.html:817
 #: website/public/showcase/ctf/index.html:786
@@ -5120,19 +5120,9 @@ msgstr ""
 "{ph0}Ghidra{ph1} (macOS أو Linux؛ التجريبية على Windows): مجانا ، ولكن يحتاج"
 " إلى القائمة Ghidra 12.1.س التثبيت و 64 بت جدك 21 أو أحدث."
 
-#. {ph0}: <strong>
-#. {ph1}: </strong>
-#: website/public/guides/native/index.html:327
-#, python-brace-format
-msgctxt "page:guides/native/index.html"
-msgid ""
-"{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
-msgstr ""
-"{ph0}IDA{ph1} (Windows): للحصول على القائمة IDA الإعداد مع MCP التسجيل."
-
 #. {ph0}: <a href="../../get-started/#native">
 #. {ph1}: </a>
-#: website/public/guides/native/index.html:332
+#: website/public/guides/native/index.html:335
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "See {ph0}Set up native analysis{ph1} for the steps."
@@ -5146,14 +5136,14 @@ msgstr "انظر {ph0}إعداد تحليل برامج رمز الجهاز{ph1} 
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/guides/native/index.html:340
+#: website/public/guides/native/index.html:343
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}مساعدك البرمجي"
 
-#: website/public/guides/native/index.html:344
-#: website/public/guides/native/index.html:475
+#: website/public/guides/native/index.html:347
+#: website/public/guides/native/index.html:478
 msgctxt "page:guides/native/index.html"
 msgid "Copy"
 msgstr "نسخ"
@@ -5164,7 +5154,7 @@ msgstr "نسخ"
 #. {ph3}: </span >
 #. {ph4}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph5}: </span>
-#: website/public/guides/native/index.html:353
+#: website/public/guides/native/index.html:356
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5174,7 +5164,7 @@ msgstr ""
 "{ph0}›{ph1}{ph2}استخدام REA لمعرفة كيف DX-Ball يحسب بالغسل الصوت. شرح الحساب"
 " وإظهار التعليمات البرمجية.{ph3}{ph4}{ph5}"
 
-#: website/public/guides/native/index.html:361
+#: website/public/guides/native/index.html:364
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Example prompt. Give your agent the path to your local DX-Ball 1.07 "
@@ -5185,7 +5175,7 @@ msgstr ""
 "للتنفيذ. REA لا يشمل DX-Ball، لذا استخدم نسختك الخاصة ، أو اطرح نفس النوع من"
 " الأسئلة حول صغيرة أخرى Windows برنامج لديك."
 
-#: website/public/guides/native/index.html:368
+#: website/public/guides/native/index.html:371
 msgctxt "page:guides/native/index.html"
 msgid "How do I get a file's full path?"
 msgstr "كيف يمكنني الحصول على المسار الكامل للملف?"
@@ -5194,7 +5184,7 @@ msgstr "كيف يمكنني الحصول على المسار الكامل للم
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:370
+#: website/public/guides/native/index.html:373
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5209,7 +5199,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:375
+#: website/public/guides/native/index.html:378
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5221,7 +5211,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/guides/native/index.html:379
+#: website/public/guides/native/index.html:382
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5229,17 +5219,17 @@ msgid ""
 "appears."
 msgstr "{ph0}أي نظام:{ph1} اسحب الملف إلى نافذة طرفية ويظهر مساره."
 
-#: website/public/guides/native/index.html:387
+#: website/public/guides/native/index.html:390
 msgctxt "page:guides/native/index.html"
 msgid "Read the REA results"
 msgstr "قراءة REA النتائج"
 
-#: website/public/guides/native/index.html:388
+#: website/public/guides/native/index.html:391
 msgctxt "page:guides/native/index.html"
 msgid "Read the input"
 msgstr "قراءة المدخلات"
 
-#: website/public/guides/native/index.html:397
+#: website/public/guides/native/index.html:400
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The instructions load an integer argument and convert it for floating-point "
@@ -5248,13 +5238,13 @@ msgstr ""
 "تقوم التعليمات بتحميل وسيطة عدد صحيح وتحويلها لحساب الفاصلة العائمة. هذا هو "
 "الإدخال الغائب عن عرض الكود الكاذب الأول."
 
-#: website/public/guides/native/index.html:402
+#: website/public/guides/native/index.html:405
 msgctxt "page:guides/native/index.html"
 msgid "Follow the caller"
 msgstr "اتبع الدالة المستدعية"
 
 #. {ph0}: <code>0x14</code>
-#: website/public/guides/native/index.html:411
+#: website/public/guides/native/index.html:414
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5264,12 +5254,12 @@ msgstr ""
 "REA يحدد الدالة المستدعية ضرب الطوب. تعليماته السابقة تضاعف إحداثيات البلاط "
 "في 30 ؛ مضيفا {ph0} (20) يعطي موقف شاشة الطوب."
 
-#: website/public/guides/native/index.html:416
+#: website/public/guides/native/index.html:419
 msgctxt "page:guides/native/index.html"
 msgid "Read the referenced constants"
 msgstr "قراءة الثوابت المشار إليها"
 
-#: website/public/guides/native/index.html:427
+#: website/public/guides/native/index.html:430
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The arithmetic references these addresses. Reading the bytes supplies the "
@@ -5278,12 +5268,12 @@ msgstr ""
 "يشير الحساب إلى هذه العناوين. قراءة وحدات البايت تزود القيم الفعلية ؛ يخبر "
 "ترتيب التعليمات الوكيل كيف يتم استخدامها."
 
-#: website/public/guides/native/index.html:434
+#: website/public/guides/native/index.html:437
 msgctxt "page:guides/native/index.html"
 msgid "Write and check the recovered function"
 msgstr "اكتب وتحقق من الوظيفة المستردة"
 
-#: website/public/guides/native/index.html:443
+#: website/public/guides/native/index.html:446
 msgctxt "page:guides/native/index.html"
 msgid ""
 "With a scale of 1.0, screen positions 0, 320 and 640 map to −500, 0 and 500 "
@@ -5293,7 +5283,7 @@ msgstr ""
 "بمقياس 1.0 ، مواضع الشاشة 0 و 320 و 640 خريطة إلى -500 و 0 و 500 قبل تحويل "
 "عدد صحيح. يضع الحساب وسط الشاشة في وسط حقل الاستريو."
 
-#: website/public/guides/native/index.html:448
+#: website/public/guides/native/index.html:451
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The agent used REA's findings to write the C. Separate checks compared 3,205"
@@ -5305,20 +5295,20 @@ msgstr ""
 
 #. {ph0}: <a href="../../showcase/dx-ball/#sound-pan" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:453
+#: website/public/guides/native/index.html:456
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}See the full investigation and assembly-to-C comparison{ph1}"
 msgstr "{ph0}انظر التحقيق الكامل ومقارنة التجميع إلى ج{ph1}"
 
-#: website/public/guides/native/index.html:460
+#: website/public/guides/native/index.html:463
 msgctxt "page:guides/native/index.html"
 msgid "Try it with your own binary"
 msgstr "تحاول ذلك مع ثنائي الخاصة بك"
 
 #. {ph0}: <a href="../../get-started/#native" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:461
+#: website/public/guides/native/index.html:464
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5331,7 +5321,7 @@ msgstr ""
 "مكتبة وميزة للتحقيق فيها. تتضمن أسئلة البداية المفيدة \"كيف يتم تحليل هذا "
 "الملف?\"أو\" ما هي الوظيفة التي تتعامل مع إجراء القائمة هذا?”"
 
-#: website/public/guides/native/index.html:468
+#: website/public/guides/native/index.html:471
 msgctxt "page:guides/native/index.html"
 msgid ""
 "If you already know a function name or address, you can query it from the "
@@ -5340,13 +5330,13 @@ msgstr ""
 "إذا كنت تعرف بالفعل اسم دالة أو عنوانا ، فيمكنك الاستعلام عنه من الجهاز. "
 "للحصول على تكوين Ghidra تركيب:"
 
-#: website/public/guides/native/index.html:474
+#: website/public/guides/native/index.html:477
 msgctxt "page:guides/native/index.html"
 msgid "Function analysis"
 msgstr "تحليل الوظيفة"
 
 #. {ph0}: <code>main</code>
-#: website/public/guides/native/index.html:487
+#: website/public/guides/native/index.html:490
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -5359,7 +5349,7 @@ msgstr ""
 "يستورد الاحتجاج ويحلل الثنائي ، ثم يغلق جلسته. وكيلك MCP استعلامات إعادة "
 "استخدام ثنائي المستوردة في حين أن الدورة مفتوحة."
 
-#: website/public/guides/native/index.html:493
+#: website/public/guides/native/index.html:496
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Read the pseudocode alongside instructions and references. When a result "
@@ -5392,17 +5382,17 @@ msgctxt "page:guides/native/index.html"
 msgid "Native analysis"
 msgstr "تحليل برامج كود الآلة"
 
-#: website/public/guides/native/index.html:344
+#: website/public/guides/native/index.html:347
 msgctxt "page:guides/native/index.html"
 msgid "Copy example prompt"
 msgstr "نسخة مثال موجه"
 
-#: website/public/guides/native/index.html:475
+#: website/public/guides/native/index.html:478
 msgctxt "page:guides/native/index.html"
 msgid "Copy function analysis"
 msgstr "نسخ تحليل وظيفة"
 
-#: website/public/guides/native/index.html:518
+#: website/public/guides/native/index.html:521
 msgctxt "page:guides/native/index.html"
 msgid "Back to top"
 msgstr "العودة للأعلى"
@@ -10636,7 +10626,7 @@ msgstr "الأدلة"
 #: website/public/guides/browser/index.html:508
 #: website/public/guides/index.html:302
 #: website/public/guides/javascript/index.html:504
-#: website/public/guides/native/index.html:510
+#: website/public/guides/native/index.html:513
 #: website/public/guides/rl-environments/index.html:499
 #: website/public/index.html:1304 website/public/showcase/aegis/index.html:809
 #: website/public/showcase/ctf/index.html:778
@@ -10659,7 +10649,7 @@ msgstr "الكود المصدري"
 #: website/public/guides/browser/index.html:509
 #: website/public/guides/index.html:303
 #: website/public/guides/javascript/index.html:505
-#: website/public/guides/native/index.html:511
+#: website/public/guides/native/index.html:514
 #: website/public/guides/rl-environments/index.html:500
 #: website/public/index.html:1305 website/public/showcase/aegis/index.html:810
 #: website/public/showcase/ctf/index.html:779
@@ -10682,7 +10672,7 @@ msgstr "رخصة MIT"
 #: website/public/guides/browser/index.html:510
 #: website/public/guides/index.html:304
 #: website/public/guides/javascript/index.html:506
-#: website/public/guides/native/index.html:512
+#: website/public/guides/native/index.html:515
 #: website/public/guides/rl-environments/index.html:501
 #: website/public/index.html:1306 website/public/showcase/aegis/index.html:811
 #: website/public/showcase/ctf/index.html:780
@@ -10705,7 +10695,7 @@ msgstr "انضم إلى المجتمع"
 #: website/public/guides/browser/index.html:511
 #: website/public/guides/index.html:305
 #: website/public/guides/javascript/index.html:507
-#: website/public/guides/native/index.html:513
+#: website/public/guides/native/index.html:516
 #: website/public/guides/rl-environments/index.html:502
 #: website/public/index.html:1307 website/public/showcase/aegis/index.html:812
 #: website/public/showcase/ctf/index.html:781
@@ -10792,22 +10782,22 @@ msgctxt "page:guides/javascript/index.html"
 msgid "REA result · summary.ipc excerpt"
 msgstr "REA النتيجة * ملخص.مقتطفات التصنيف الدولي للبراءات"
 
-#: website/public/guides/native/index.html:391
+#: website/public/guides/native/index.html:394
 msgctxt "page:guides/native/index.html"
 msgid "REA instruction excerpt · 0x406409"
 msgstr "REA مقتطفات التعليمات * 0 * 406409"
 
-#: website/public/guides/native/index.html:405
+#: website/public/guides/native/index.html:408
 msgctxt "page:guides/native/index.html"
 msgid "REA caller excerpt · 0x411f5b"
 msgstr "REA مقتطف الدالة المستدعية · 0 * 411 أف 5 ب"
 
-#: website/public/guides/native/index.html:419
+#: website/public/guides/native/index.html:422
 msgctxt "page:guides/native/index.html"
 msgid "REA byte results · interpreted as little-endian doubles"
 msgstr "REA نتائج البايت * تفسر على أنها زوجي صغير"
 
-#: website/public/guides/native/index.html:436
+#: website/public/guides/native/index.html:439
 msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "تعافى ج * مقتطفات"
@@ -14655,7 +14645,7 @@ msgstr ""
 #: website/public/guides/browser/index.html:507
 #: website/public/guides/index.html:301
 #: website/public/guides/javascript/index.html:503
-#: website/public/guides/native/index.html:509
+#: website/public/guides/native/index.html:512
 #: website/public/guides/rl-environments/index.html:498
 #: website/public/index.html:1303 website/public/showcase/aegis/index.html:808
 #: website/public/showcase/ctf/index.html:777
@@ -15505,6 +15495,25 @@ msgstr "REA - الهندسة العكسية لعامل الترميز الخاص
 msgctxt "page:index.html"
 msgid "See the full Calculator investigation"
 msgstr "شاهد الاستقصاء الكامل للآلة الحاسبة"
+
+#. {ph0}: <strong>
+#. {ph1}: </strong>
+#: website/public/guides/native/index.html:327
+#, python-brace-format
+msgctxt "page:guides/native/index.html"
+msgid ""
+"{ph0}IDA{ph1} (Windows attached or headless; macOS arm64 headless): for an "
+"existing IDA setup with an MCP registration. The macOS profile is a headless"
+" supervisor verified with IDA Professional 9.1; it needs a REA source build "
+"or a release containing it."
+msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:guides/native/index.html"
+#~ msgid ""
+#~ "{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
+#~ msgstr ""
+#~ "{ph0}IDA{ph1} (Windows): للحصول على القائمة IDA الإعداد مع MCP التسجيل."
 
 #~ msgctxt "page:index.html"
 #~ msgid "Calculator: by hand and with an agent"

@@ -192,7 +192,7 @@ msgstr "Του N0zoM1z0 · 10 Οκτωβρίου 2026"
 #: website/public/guides/browser/index.html:508
 #: website/public/guides/index.html:302
 #: website/public/guides/javascript/index.html:504
-#: website/public/guides/native/index.html:510
+#: website/public/guides/native/index.html:513
 #: website/public/guides/rl-environments/index.html:499
 #: website/public/index.html:1304 website/public/showcase/aegis/index.html:809
 #: website/public/showcase/ctf/index.html:778
@@ -215,7 +215,7 @@ msgstr "Πηγαίος κώδικας"
 #: website/public/guides/browser/index.html:509
 #: website/public/guides/index.html:303
 #: website/public/guides/javascript/index.html:505
-#: website/public/guides/native/index.html:511
+#: website/public/guides/native/index.html:514
 #: website/public/guides/rl-environments/index.html:500
 #: website/public/index.html:1305 website/public/showcase/aegis/index.html:810
 #: website/public/showcase/ctf/index.html:779
@@ -238,7 +238,7 @@ msgstr "Άδεια MIT"
 #: website/public/guides/browser/index.html:510
 #: website/public/guides/index.html:304
 #: website/public/guides/javascript/index.html:506
-#: website/public/guides/native/index.html:512
+#: website/public/guides/native/index.html:515
 #: website/public/guides/rl-environments/index.html:501
 #: website/public/index.html:1306 website/public/showcase/aegis/index.html:811
 #: website/public/showcase/ctf/index.html:780
@@ -261,7 +261,7 @@ msgstr "Ελάτε στην κοινότητα"
 #: website/public/guides/browser/index.html:511
 #: website/public/guides/index.html:305
 #: website/public/guides/javascript/index.html:507
-#: website/public/guides/native/index.html:513
+#: website/public/guides/native/index.html:516
 #: website/public/guides/rl-environments/index.html:502
 #: website/public/index.html:1307 website/public/showcase/aegis/index.html:812
 #: website/public/showcase/ctf/index.html:781
@@ -286,7 +286,7 @@ msgstr "Ακολουθήστε μας στο X"
 #: website/public/guides/browser/index.html:516
 #: website/public/guides/index.html:310
 #: website/public/guides/javascript/index.html:512
-#: website/public/guides/native/index.html:518
+#: website/public/guides/native/index.html:521
 #: website/public/guides/rl-environments/index.html:507
 #: website/public/index.html:1312 website/public/showcase/aegis/index.html:817
 #: website/public/showcase/ctf/index.html:786
@@ -7289,19 +7289,9 @@ msgstr ""
 "{ph0}Ghidra{ph1} (macOS ή Linux· πειραματικά στα Windows): δωρεάν, αλλά "
 "χρειάζεται υπάρχουσα εγκατάσταση Ghidra 12.1.x και JDK 21 ή νεότερο, 64 bit."
 
-#. {ph0}: <strong>
-#. {ph1}: </strong>
-#: website/public/guides/native/index.html:327
-#, python-brace-format
-msgctxt "page:guides/native/index.html"
-msgid ""
-"{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
-msgstr ""
-"{ph0}IDA{ph1} (Windows): για υπάρχουσα εγκατάσταση IDA με καταχώριση MCP."
-
 #. {ph0}: <a href="../../get-started/#native">
 #. {ph1}: </a>
-#: website/public/guides/native/index.html:332
+#: website/public/guides/native/index.html:335
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "See {ph0}Set up native analysis{ph1} for the steps."
@@ -7315,14 +7305,14 @@ msgstr "Δείτε τη {ph0}ρύθμιση ανάλυσης εγγενούς κ
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/guides/native/index.html:340
+#: website/public/guides/native/index.html:343
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Ο βοηθός προγραμματισμού σας"
 
-#: website/public/guides/native/index.html:344
-#: website/public/guides/native/index.html:475
+#: website/public/guides/native/index.html:347
+#: website/public/guides/native/index.html:478
 msgctxt "page:guides/native/index.html"
 msgid "Copy"
 msgstr "Αντιγραφή"
@@ -7333,7 +7323,7 @@ msgstr "Αντιγραφή"
 #. {ph3}: </span >
 #. {ph4}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph5}: </span>
-#: website/public/guides/native/index.html:353
+#: website/public/guides/native/index.html:356
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7344,7 +7334,7 @@ msgstr ""
 "υπολογίζει τη στερεοφωνική θέση του ήχου. Εξηγήστε τον υπολογισμό και δείξτε"
 " τον κώδικα.{ph3}{ph4}{ph5}"
 
-#: website/public/guides/native/index.html:361
+#: website/public/guides/native/index.html:364
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Example prompt. Give your agent the path to your local DX-Ball 1.07 "
@@ -7356,7 +7346,7 @@ msgstr ""
 "χρησιμοποιήστε το δικό σας αντίγραφο ή κάντε την ίδιας μορφής ερώτηση για "
 "ένα άλλο μικρό πρόγραμμα Windows που διαθέτετε."
 
-#: website/public/guides/native/index.html:368
+#: website/public/guides/native/index.html:371
 msgctxt "page:guides/native/index.html"
 msgid "How do I get a file's full path?"
 msgstr "Πώς βρίσκω την πλήρη διαδρομή ενός αρχείου;"
@@ -7365,7 +7355,7 @@ msgstr "Πώς βρίσκω την πλήρη διαδρομή ενός αρχε
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:370
+#: website/public/guides/native/index.html:373
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7380,7 +7370,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/guides/native/index.html:375
+#: website/public/guides/native/index.html:378
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7392,7 +7382,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/guides/native/index.html:379
+#: website/public/guides/native/index.html:382
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7402,22 +7392,22 @@ msgstr ""
 "{ph0}Σε κάθε σύστημα:{ph1} σύρετε το αρχείο σε ένα παράθυρο τερματικού και "
 "θα εμφανιστεί η διαδρομή του."
 
-#: website/public/guides/native/index.html:387
+#: website/public/guides/native/index.html:390
 msgctxt "page:guides/native/index.html"
 msgid "Read the REA results"
 msgstr "Διαβάστε τα αποτελέσματα του REA"
 
-#: website/public/guides/native/index.html:388
+#: website/public/guides/native/index.html:391
 msgctxt "page:guides/native/index.html"
 msgid "Read the input"
 msgstr "Διαβάστε την είσοδο"
 
-#: website/public/guides/native/index.html:391
+#: website/public/guides/native/index.html:394
 msgctxt "page:guides/native/index.html"
 msgid "REA instruction excerpt · 0x406409"
 msgstr "Απόσπασμα εντολών του REA · 0x406409"
 
-#: website/public/guides/native/index.html:397
+#: website/public/guides/native/index.html:400
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The instructions load an integer argument and convert it for floating-point "
@@ -7427,18 +7417,18 @@ msgstr ""
 "κινητής υποδιαστολής. Αυτή είναι η είσοδος που λείπει από την πρώτη προβολή "
 "ψευδοκώδικα."
 
-#: website/public/guides/native/index.html:402
+#: website/public/guides/native/index.html:405
 msgctxt "page:guides/native/index.html"
 msgid "Follow the caller"
 msgstr "Ακολουθήστε την καλούσα συνάρτηση"
 
-#: website/public/guides/native/index.html:405
+#: website/public/guides/native/index.html:408
 msgctxt "page:guides/native/index.html"
 msgid "REA caller excerpt · 0x411f5b"
 msgstr "Απόσπασμα καλούσας συνάρτησης του REA · 0x411f5b"
 
 #. {ph0}: <code>0x14</code>
-#: website/public/guides/native/index.html:411
+#: website/public/guides/native/index.html:414
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7450,19 +7440,19 @@ msgstr ""
 "πλακιδίου επί 30· προσθέτοντας {ph0} (20), προκύπτει η θέση του τούβλου στην"
 " οθόνη."
 
-#: website/public/guides/native/index.html:416
+#: website/public/guides/native/index.html:419
 msgctxt "page:guides/native/index.html"
 msgid "Read the referenced constants"
 msgstr "Διαβάστε τις σταθερές στις οποίες γίνεται αναφορά"
 
-#: website/public/guides/native/index.html:419
+#: website/public/guides/native/index.html:422
 msgctxt "page:guides/native/index.html"
 msgid "REA byte results · interpreted as little-endian doubles"
 msgstr ""
 "Αποτελέσματα bytes του REA · ερμηνεία ως αριθμοί διπλής ακρίβειας little-"
 "endian"
 
-#: website/public/guides/native/index.html:427
+#: website/public/guides/native/index.html:430
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The arithmetic references these addresses. Reading the bytes supplies the "
@@ -7472,17 +7462,17 @@ msgstr ""
 "bytes παρέχει τις πραγματικές τιμές· η σειρά των εντολών δείχνει στον βοηθό "
 "πώς χρησιμοποιούνται."
 
-#: website/public/guides/native/index.html:434
+#: website/public/guides/native/index.html:437
 msgctxt "page:guides/native/index.html"
 msgid "Write and check the recovered function"
 msgstr "Γράψτε και ελέγξτε την ανακτημένη συνάρτηση"
 
-#: website/public/guides/native/index.html:436
+#: website/public/guides/native/index.html:439
 msgctxt "page:guides/native/index.html"
 msgid "Recovered C · excerpt"
 msgstr "Ανακτημένος κώδικας C · απόσπασμα"
 
-#: website/public/guides/native/index.html:443
+#: website/public/guides/native/index.html:446
 msgctxt "page:guides/native/index.html"
 msgid ""
 "With a scale of 1.0, screen positions 0, 320 and 640 map to −500, 0 and 500 "
@@ -7493,7 +7483,7 @@ msgstr ""
 "500 πριν από τη μετατροπή σε ακέραιο. Ο υπολογισμός τοποθετεί το κέντρο της "
 "οθόνης στο κέντρο του στερεοφωνικού πεδίου."
 
-#: website/public/guides/native/index.html:448
+#: website/public/guides/native/index.html:451
 msgctxt "page:guides/native/index.html"
 msgid ""
 "The agent used REA's findings to write the C. Separate checks compared 3,205"
@@ -7506,20 +7496,20 @@ msgstr ""
 
 #. {ph0}: <a href="../../showcase/dx-ball/#sound-pan" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:453
+#: website/public/guides/native/index.html:456
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid "{ph0}See the full investigation and assembly-to-C comparison{ph1}"
 msgstr "{ph0}Δείτε την πλήρη διερεύνηση και τη σύγκριση assembly με C{ph1}"
 
-#: website/public/guides/native/index.html:460
+#: website/public/guides/native/index.html:463
 msgctxt "page:guides/native/index.html"
 msgid "Try it with your own binary"
 msgstr "Δοκιμάστε το με το δικό σας δυαδικό αρχείο"
 
 #. {ph0}: <a href="../../get-started/#native" >
 #. {ph1}: </a >
-#: website/public/guides/native/index.html:461
+#: website/public/guides/native/index.html:464
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7533,7 +7523,7 @@ msgstr ""
 "διερεύνηση. Χρήσιμες αρχικές ερωτήσεις είναι «Πώς αναλύεται αυτό το αρχείο;»"
 " ή «Ποια συνάρτηση χειρίζεται αυτή την ενέργεια του μενού;»"
 
-#: website/public/guides/native/index.html:468
+#: website/public/guides/native/index.html:471
 msgctxt "page:guides/native/index.html"
 msgid ""
 "If you already know a function name or address, you can query it from the "
@@ -7542,13 +7532,13 @@ msgstr ""
 "Αν γνωρίζετε ήδη ένα όνομα ή μια διεύθυνση συνάρτησης, μπορείτε να υποβάλετε"
 " ερώτημα από το τερματικό. Για μια ρυθμισμένη εγκατάσταση Ghidra:"
 
-#: website/public/guides/native/index.html:474
+#: website/public/guides/native/index.html:477
 msgctxt "page:guides/native/index.html"
 msgid "Function analysis"
 msgstr "Ανάλυση συνάρτησης"
 
 #. {ph0}: <code>main</code>
-#: website/public/guides/native/index.html:487
+#: website/public/guides/native/index.html:490
 #, python-brace-format
 msgctxt "page:guides/native/index.html"
 msgid ""
@@ -7563,7 +7553,7 @@ msgstr ""
 "επαναχρησιμοποιούν το εισαγμένο δυαδικό αρχείο όσο αυτή η συνεδρία παραμένει"
 " ανοιχτή."
 
-#: website/public/guides/native/index.html:493
+#: website/public/guides/native/index.html:496
 msgctxt "page:guides/native/index.html"
 msgid ""
 "Read the pseudocode alongside instructions and references. When a result "
@@ -7598,17 +7588,17 @@ msgctxt "page:guides/native/index.html"
 msgid "Native analysis"
 msgstr "Ανάλυση εγγενούς κώδικα"
 
-#: website/public/guides/native/index.html:344
+#: website/public/guides/native/index.html:347
 msgctxt "page:guides/native/index.html"
 msgid "Copy example prompt"
 msgstr "Αντιγραφή παραδείγματος προτροπής"
 
-#: website/public/guides/native/index.html:475
+#: website/public/guides/native/index.html:478
 msgctxt "page:guides/native/index.html"
 msgid "Copy function analysis"
 msgstr "Αντιγραφή εντολής ανάλυσης συνάρτησης"
 
-#: website/public/guides/native/index.html:518
+#: website/public/guides/native/index.html:521
 msgctxt "page:guides/native/index.html"
 msgid "Back to top"
 msgstr "Επιστροφή στην κορυφή"
@@ -15223,7 +15213,7 @@ msgstr ""
 #: website/public/guides/browser/index.html:507
 #: website/public/guides/index.html:301
 #: website/public/guides/javascript/index.html:503
-#: website/public/guides/native/index.html:509
+#: website/public/guides/native/index.html:512
 #: website/public/guides/rl-environments/index.html:498
 #: website/public/index.html:1303 website/public/showcase/aegis/index.html:808
 #: website/public/showcase/ctf/index.html:777
@@ -16094,6 +16084,25 @@ msgstr "REA: Αντίστροφη μηχανική για τον βοηθό πρ
 msgctxt "page:index.html"
 msgid "See the full Calculator investigation"
 msgstr "Δείτε ολόκληρη τη διερεύνηση του Calculator"
+
+#. {ph0}: <strong>
+#. {ph1}: </strong>
+#: website/public/guides/native/index.html:327
+#, python-brace-format
+msgctxt "page:guides/native/index.html"
+msgid ""
+"{ph0}IDA{ph1} (Windows attached or headless; macOS arm64 headless): for an "
+"existing IDA setup with an MCP registration. The macOS profile is a headless"
+" supervisor verified with IDA Professional 9.1; it needs a REA source build "
+"or a release containing it."
+msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:guides/native/index.html"
+#~ msgid ""
+#~ "{ph0}IDA{ph1} (Windows): for an existing IDA setup with an MCP registration."
+#~ msgstr ""
+#~ "{ph0}IDA{ph1} (Windows): για υπάρχουσα εγκατάσταση IDA με καταχώριση MCP."
 
 #~ msgctxt "page:index.html"
 #~ msgid "Calculator: by hand and with an agent"
