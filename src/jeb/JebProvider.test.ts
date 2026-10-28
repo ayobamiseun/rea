@@ -337,6 +337,35 @@ describe("JebProvider target and endpoint selection", () => {
     expect(result.value.limitations.join(" ")).toContain("implicitly");
   });
 
+  it("retains the configured non-default endpoint in a direct transport failure", async () => {
+    const endpoint = "http://127.0.0.1:59222/mcp";
+    const provider = new JebProvider({
+      environment: { REA_JEB_MCP_URL: endpoint },
+      connectionFactory: () =>
+        scriptedConnection({
+          get_client_information: new Error(
+            "Error POSTing to endpoint: not found",
+          ),
+        }),
+    });
+    const result = await provider.execute({
+      operation: "inspect_jeb_client",
+      input: {},
+    });
+    if (result.ok) throw new Error("Expected a direct JEB transport failure");
+    const projected = projectAnalysisError(result.error);
+    expect(projected).toMatchObject({
+      code: "capability_unavailable",
+      retryable: false,
+      message: expect.stringContaining(endpoint),
+      details: {
+        reason: "Error POSTing to endpoint: not found",
+        diagnostics: { endpoint },
+      },
+    });
+    expect(projected.remediation.action).toContain("REA_JEB_MCP_URL");
+  });
+
   it("rejects unusable endpoints at construction", () => {
     const rejection = (value: string): AnalysisInputError => {
       try {

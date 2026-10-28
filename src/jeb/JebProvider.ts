@@ -575,13 +575,17 @@ export class JebProvider implements JebAnalysisPort {
       );
     const physical =
       cause instanceof JebMcpPhysicalFailure ? cause.cause : cause;
+    const endpoint = this.#endpoint.toString();
     return new AnalysisCapabilityUnavailableError(
       "jeb",
       operation,
       physical instanceof Error ? physical.message : String(physical),
       {
         cause,
-        userMessage: JEB_CONNECTION_REMEDIATION,
+        userMessage: `The JEB MCP request to ${endpoint} failed. ${JEB_CONNECTION_REMEDIATION}`,
+        remediationAction: JEB_CONNECTION_REMEDIATION,
+        // Same key as availability discovery: the service this request selected.
+        diagnostics: { endpoint },
       },
     );
   }
