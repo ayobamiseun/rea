@@ -71,7 +71,7 @@ msgstr "โดย N0zoM1z0 ·10 ตุลาคม 2026"
 #: website/public/examples/dino-lab/index.html:484
 #: website/public/faq/index.html:582
 #: website/public/first-investigation/index.html:543
-#: website/public/get-started/index.html:1826
+#: website/public/get-started/index.html:1860
 #: website/public/guides/browser/index.html:516
 #: website/public/guides/index.html:310
 #: website/public/guides/javascript/index.html:512
@@ -3215,27 +3215,27 @@ msgstr "เทอร์มินัล"
 #: website/public/get-started/index.html:550
 #: website/public/get-started/index.html:582
 #: website/public/get-started/index.html:611
-#: website/public/get-started/index.html:746
-#: website/public/get-started/index.html:776
-#: website/public/get-started/index.html:801
-#: website/public/get-started/index.html:816
-#: website/public/get-started/index.html:864
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:809
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
 #: website/public/get-started/index.html:897
-#: website/public/get-started/index.html:1049
-#: website/public/get-started/index.html:1111
-#: website/public/get-started/index.html:1134
-#: website/public/get-started/index.html:1158
-#: website/public/get-started/index.html:1206
-#: website/public/get-started/index.html:1281
-#: website/public/get-started/index.html:1307
-#: website/public/get-started/index.html:1324
-#: website/public/get-started/index.html:1567
-#: website/public/get-started/index.html:1626
-#: website/public/get-started/index.html:1645
-#: website/public/get-started/index.html:1667
-#: website/public/get-started/index.html:1710
-#: website/public/get-started/index.html:1740
-#: website/public/get-started/index.html:1761
+#: website/public/get-started/index.html:930
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1315
+#: website/public/get-started/index.html:1341
+#: website/public/get-started/index.html:1358
+#: website/public/get-started/index.html:1601
+#: website/public/get-started/index.html:1660
+#: website/public/get-started/index.html:1679
+#: website/public/get-started/index.html:1701
+#: website/public/get-started/index.html:1744
+#: website/public/get-started/index.html:1774
+#: website/public/get-started/index.html:1795
 msgctxt "page:get-started/index.html"
 msgid "Copy"
 msgstr "คัดลอก"
@@ -3298,13 +3298,13 @@ msgstr "{ph0}การรับความช่วยเหลือ{ph1}"
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/get-started/index.html:771
+#: website/public/get-started/index.html:804
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}ผู้ช่วย AI เขียนโค้ดของคุณ"
 
-#: website/public/get-started/index.html:797
+#: website/public/get-started/index.html:830
 msgctxt "page:get-started/index.html"
 msgid "Or run setup yourself"
 msgstr "หรือเรียกใช้การตั้งค่าด้วยตัวคุณเอง"
@@ -3368,7 +3368,7 @@ msgstr ""
 "วางคำสั่งด้วย {ph0} {ph1} (macOS: {ph2} {ph3}; เทอร์มินัล Linux: {ph4} {ph5}"
 " {ph6}) แล้วกด Enter"
 
-#: website/public/get-started/index.html:833
+#: website/public/get-started/index.html:866
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose your client and review the setup plan. REA adds its MCP connection "
@@ -3379,7 +3379,7 @@ msgstr ""
 "การเชื่อมต่อและทักษะการตรวจสอบการจับคู่การรักษาสำรองของการกำหนดค่าที่มีอยู่ "
 "มันถามก่อนที่จะใช้การเปลี่ยนแปลง"
 
-#: website/public/get-started/index.html:847
+#: website/public/get-started/index.html:880
 msgctxt "page:get-started/index.html"
 msgid "How do I restart my client?"
 msgstr "เริ่มแอปที่เชื่อมต่อใหม่อย่างไร?"
@@ -3388,7 +3388,7 @@ msgstr "เริ่มแอปที่เชื่อมต่อใหม่
 #. {ph1}: </strong>
 #. {ph2}: <kbd>⌘</kbd>
 #. {ph3}: <kbd>Q</kbd>
-#: website/public/get-started/index.html:848
+#: website/public/get-started/index.html:881
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3403,7 +3403,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:855
+#: website/public/get-started/index.html:888
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3413,7 +3413,7 @@ msgstr ""
 "{ph0}ตัวแทนเทอร์มินัล{ph1} (Claude Code, Codex, Gemini "
 "CLI):ออกจากเซสชั่นและเริ่มต้นอีกครั้ง"
 
-#: website/public/get-started/index.html:959
+#: website/public/get-started/index.html:992
 msgctxt "page:get-started/index.html"
 msgid "How do I get a folder's full path?"
 msgstr "ฉันจะได้รับเส้นทางเต็มของโฟลเดอร์ได้อย่างไร"
@@ -3422,7 +3422,7 @@ msgstr "ฉันจะได้รับเส้นทางเต็มขอ
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:961
+#: website/public/get-started/index.html:994
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3436,7 +3436,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:966
+#: website/public/get-started/index.html:999
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3448,7 +3448,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:970
+#: website/public/get-started/index.html:1003
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3458,13 +3458,13 @@ msgstr ""
 "{ph0}ระบบใดๆ:{ph1} "
 "ลากโฟลเดอร์ลงในหน้าต่างเทอร์มินัลและเส้นทางของมันปรากฏขึ้น"
 
-#: website/public/get-started/index.html:975
-#: website/public/get-started/index.html:1733
+#: website/public/get-started/index.html:1008
+#: website/public/get-started/index.html:1767
 msgctxt "page:get-started/index.html"
 msgid "In a terminal, put quotes around a path that contains spaces."
 msgstr "ในเทอร์มินัล ให้ใส่เครื่องหมายคำพูดครอบพาธที่มีช่องว่าง"
 
-#: website/public/get-started/index.html:1560
+#: website/public/get-started/index.html:1594
 msgctxt "page:get-started/index.html"
 msgid ""
 "Analyze a JavaScript or Electron application folder or ASAR archive without "
@@ -3472,14 +3472,14 @@ msgid ""
 msgstr ""
 "วิเคราะห์เป็นJavaScriptหรือElectronองโปรแกรมหรือโฟลเดอร์ASARแฟ้มจัดเก็บโดยไม่มีกำลังแอพฯ:"
 
-#: website/public/get-started/index.html:1566
+#: website/public/get-started/index.html:1600
 msgctxt "page:get-started/index.html"
 msgid "Static application analysis"
 msgstr "การวิเคราะห์แอปพลิเคชันแบบคงที่"
 
 #. {ph0}: <code>.asar</code>
 #. {ph1}: <code>"D:/apps/example"</code>
-#: website/public/get-started/index.html:1578
+#: website/public/get-started/index.html:1612
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3489,13 +3489,13 @@ msgstr ""
 "แทนที่พาธด้วยไดเรกทอรีแอปที่คุณแยกออกหรือ {ph0} แฟ้ม บน Windows เส้นทางเช่น "
 "{ph1} ทำงานที่นี่"
 
-#: website/public/get-started/index.html:1584
+#: website/public/get-started/index.html:1618
 msgctxt "page:get-started/index.html"
 msgid "Where do I find an app's .asar file?"
 msgstr "หาไฟล์ .asar ของแอปได้ที่ไหน?"
 
 #. {ph0}: <code>resources</code>
-#: website/public/get-started/index.html:1585
+#: website/public/get-started/index.html:1619
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Electron apps usually keep it in a {ph0} folder:"
@@ -3506,7 +3506,7 @@ msgstr "Electron ปพลิเคชันมักจะเก็บไว้
 #. {ph2}: <code
 #. >C:\Users\&lt;you&gt;\AppData\Local\Programs\&lt;App&gt;\resources\app.asar</code
 #. >
-#: website/public/get-started/index.html:1590
+#: website/public/get-started/index.html:1624
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Windows:{ph1} {ph2}"
@@ -3518,7 +3518,7 @@ msgstr "{ph0}Windows:{ph1} {ph2}"
 #. >/Applications/&lt;App&gt;.app/Contents/Resources/app.asar</code >
 #. {ph3}: <em>
 #. {ph4}: </em>
-#: website/public/get-started/index.html:1596
+#: website/public/get-started/index.html:1630
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3531,20 +3531,20 @@ msgstr ""
 #. {ph0}: <strong>
 #. {ph1}: </strong>
 #. {ph2}: <code>/opt/&lt;App&gt;/resources/app.asar</code>
-#: website/public/get-started/index.html:1604
+#: website/public/get-started/index.html:1638
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux:{ph1} often {ph2}"
 msgstr "{ph0}Linux:{ph1} มักจะ {ph2}"
 
 #. {ph0}: <code>app.asar</code>
-#: website/public/get-started/index.html:1609
+#: website/public/get-started/index.html:1643
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Some apps install elsewhere. Search the app's folder for {ph0}."
 msgstr "บางแอปติดตั้งที่อื่น ค้นหาโฟลเดอร์ของแอป {ph0}."
 
-#: website/public/get-started/index.html:1614
+#: website/public/get-started/index.html:1648
 msgctxt "page:get-started/index.html"
 msgid ""
 "The result identifies the app, shows connections between modules and gives "
@@ -3555,36 +3555,36 @@ msgstr ""
 " การเชื่อมต่อ REA ไม่สามารถแก้ไขได้ถูกทำเครื่องหมายในผลลัพธ์"
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:1619
+#: website/public/get-started/index.html:1653
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "If you'd like a permanent {ph0} command in your shell:"
 msgstr "ถ้าคุณต้องการถาวร {ph0} คำสั่งในเปลือกของคุณ:"
 
-#: website/public/get-started/index.html:1625
+#: website/public/get-started/index.html:1659
 msgctxt "page:get-started/index.html"
 msgid "Install the CLI"
 msgstr "ติดตั้ง CLI"
 
 #. {ph0}: <a href="../guides/javascript/" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1637
+#: website/public/get-started/index.html:1671
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Continue with the JavaScript application guide{ph1}"
 msgstr "{ph0}อ่านต่อในคู่มือแอป JavaScript{ph1}"
 
-#: website/public/get-started/index.html:1154
+#: website/public/get-started/index.html:1187
 msgctxt "page:get-started/index.html"
 msgid "Connect your Ghidra installation"
 msgstr "เชื่อมต่อของคุณ Ghidra การติดตั้ง"
 
-#: website/public/get-started/index.html:1124
+#: website/public/get-started/index.html:1157
 msgctxt "page:get-started/index.html"
 msgid "Connect Ghidra on Windows"
 msgstr "เชื่อมต่อ Ghidra บน Windows"
 
-#: website/public/get-started/index.html:1125
+#: website/public/get-started/index.html:1158
 msgctxt "page:get-started/index.html"
 msgid ""
 "Windows x64 has experimental, read-only support for native x86 and x64 PE "
@@ -3595,13 +3595,13 @@ msgstr ""
 "เนทีฟ x86 และ x64 บนไดรฟ์ NTFS ภายในเครื่องแบบคงที่ ใช้ Ghidra 12.1.x "
 "ที่ติดตั้งไว้แล้วและ JDK 21 ขึ้นไปแบบ 64 บิต:"
 
-#: website/public/get-started/index.html:1148
+#: website/public/get-started/index.html:1181
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace the two paths with your installations, then review setup's plan."
 msgstr "แทนที่เส้นทางสองเส้นทางด้วยการติดตั้งจากนั้นตรวจสอบแผนการติดตั้ง"
 
-#: website/public/get-started/index.html:1030
+#: website/public/get-started/index.html:1063
 msgctxt "page:get-started/index.html"
 msgid ""
 "Connect Hopper on macOS or Linux. Run the setup command above; it detects an"
@@ -3610,18 +3610,18 @@ msgstr ""
 "เชื่อมต่อHopperบmacOSหรือLinux. "
 "รันคำสั่งการติดตั้งข้างต้นจะตรวจพบการติดตั้งที่มีอยู่หรือเสนอแผนการติดตั้งเพื่อขออนุมัติ"
 
-#: website/public/get-started/index.html:1691
+#: website/public/get-started/index.html:1725
 msgctxt "page:get-started/index.html"
 msgid "Getting help"
 msgstr "การรับความช่วยเหลือ"
 
-#: website/public/get-started/index.html:1693
+#: website/public/get-started/index.html:1727
 msgctxt "page:get-started/index.html"
 msgid "If your agent doesn't see REA"
 msgstr "ถ้าตัวแทนของคุณไม่เห็น REA"
 
 #. {ph0}: <code>doctor</code>
-#: website/public/get-started/index.html:1694
+#: website/public/get-started/index.html:1728
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3631,22 +3631,22 @@ msgstr ""
 "รีสตาร์ทหรือเชื่อมต่อไคลเอ็นต์หลังจากการตั้งค่า ตรวจสอบ REA การเชื่อมต่อกับ "
 "{ph0};สำหรับ Codex:"
 
-#: website/public/get-started/index.html:1705
+#: website/public/get-started/index.html:1739
 msgctxt "page:get-started/index.html"
 msgid "If a provider needs attention"
 msgstr "หากผู้ให้บริการต้องการความสนใจ"
 
-#: website/public/get-started/index.html:1706
+#: website/public/get-started/index.html:1740
 msgctxt "page:get-started/index.html"
 msgid "Check the provider you're using. For Ghidra:"
 msgstr "ตรวจสอบผู้ให้บริการที่คุณใช้ สำหรับ Ghidra:"
 
-#: website/public/get-started/index.html:1709
+#: website/public/get-started/index.html:1743
 msgctxt "page:get-started/index.html"
 msgid "Check one provider"
 msgstr "ตรวจสอบผู้ให้บริการหนึ่งราย"
 
-#: website/public/get-started/index.html:1721
+#: website/public/get-started/index.html:1755
 msgctxt "page:get-started/index.html"
 msgid "The report gives the failed check and a suggested next step."
 msgstr "รายงานให้ตรวจสอบล้มเหลวและแนะนำขั้นตอนถัดไป."
@@ -3655,7 +3655,7 @@ msgstr "รายงานให้ตรวจสอบล้มเหลวแ
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1786
+#: website/public/get-started/index.html:1820
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3668,7 +3668,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span >
 #. {ph3}: </span >
-#: website/public/get-started/index.html:1790
+#: website/public/get-started/index.html:1824
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3682,7 +3682,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1797
+#: website/public/get-started/index.html:1831
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3695,7 +3695,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1801
+#: website/public/get-started/index.html:1835
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3754,27 +3754,27 @@ msgctxt "page:get-started/index.html"
 msgid "REA getting started guide"
 msgstr "REAคู่มือการเริ่มต้นใช้งาน"
 
-#: website/public/get-started/index.html:776
+#: website/public/get-started/index.html:809
 msgctxt "page:get-started/index.html"
 msgid "Copy REA installation prompt"
 msgstr "คัดลอก REA พร้อมท์การติดตั้ง"
 
-#: website/public/get-started/index.html:1567
+#: website/public/get-started/index.html:1601
 msgctxt "page:get-started/index.html"
 msgid "Copy JavaScript analysis command"
 msgstr "คัดลอกJavaScriptคำสั่งการวิเคราะห์"
 
-#: website/public/get-started/index.html:1626
+#: website/public/get-started/index.html:1660
 msgctxt "page:get-started/index.html"
 msgid "Copy CLI installation command"
 msgstr "คัดลอกCLIคำสั่งการติดตั้ง"
 
-#: website/public/get-started/index.html:1710
+#: website/public/get-started/index.html:1744
 msgctxt "page:get-started/index.html"
 msgid "Copy provider diagnosis command"
 msgstr "คัดลอกคำสั่งการวินิจฉัยผู้ให้บริการ"
 
-#: website/public/get-started/index.html:1826
+#: website/public/get-started/index.html:1860
 msgctxt "page:get-started/index.html"
 msgid "Back to top"
 msgstr "กลับขึ้นด้านบน"
@@ -10624,7 +10624,7 @@ msgstr "คู่มือ"
 #: website/public/examples/dino-lab/index.html:476
 #: website/public/faq/index.html:574
 #: website/public/first-investigation/index.html:535
-#: website/public/get-started/index.html:1818
+#: website/public/get-started/index.html:1852
 #: website/public/guides/browser/index.html:508
 #: website/public/guides/index.html:302
 #: website/public/guides/javascript/index.html:504
@@ -10647,7 +10647,7 @@ msgstr "ซอร์สโค้ด"
 #: website/public/examples/dino-lab/index.html:477
 #: website/public/faq/index.html:575
 #: website/public/first-investigation/index.html:536
-#: website/public/get-started/index.html:1819
+#: website/public/get-started/index.html:1853
 #: website/public/guides/browser/index.html:509
 #: website/public/guides/index.html:303
 #: website/public/guides/javascript/index.html:505
@@ -10670,7 +10670,7 @@ msgstr "สัญญาอนุญาต MIT"
 #: website/public/examples/dino-lab/index.html:478
 #: website/public/faq/index.html:576
 #: website/public/first-investigation/index.html:537
-#: website/public/get-started/index.html:1820
+#: website/public/get-started/index.html:1854
 #: website/public/guides/browser/index.html:510
 #: website/public/guides/index.html:304
 #: website/public/guides/javascript/index.html:506
@@ -10693,7 +10693,7 @@ msgstr "เข้าร่วมชุมชน"
 #: website/public/examples/dino-lab/index.html:479
 #: website/public/faq/index.html:577
 #: website/public/first-investigation/index.html:538
-#: website/public/get-started/index.html:1821
+#: website/public/get-started/index.html:1855
 #: website/public/guides/browser/index.html:511
 #: website/public/guides/index.html:305
 #: website/public/guides/javascript/index.html:507
@@ -11214,7 +11214,7 @@ msgstr ""
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/get-started/index.html:785
+#: website/public/get-started/index.html:818
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13251,17 +13251,6 @@ msgctxt "page:get-started/index.html"
 msgid "All supported clients and setup IDs"
 msgstr "แอปที่รองรับทั้งหมดและ ID สำหรับตั้งค่า"
 
-#. {ph0}: <code>--client</code>
-#: website/public/get-started/index.html:635
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
-" choosing a client explicitly."
-msgstr ""
-"รุ่น npm 6.4.0 รองรับแอปด้านล่าง หากต้องการระบุแอปโดยตรง ให้ใช้ ID คู่กับ "
-"{ph0}"
-
 #: website/public/get-started/index.html:643
 msgctxt "page:get-started/index.html"
 msgid "Client"
@@ -13272,23 +13261,6 @@ msgctxt "page:get-started/index.html"
 msgid "Setup ID"
 msgstr "ID สำหรับตั้งค่า"
 
-#. {ph0}: <code>qoder</code>
-#. {ph1}: <code>droid</code>
-#. {ph2}: <code>trae</code>
-#. {ph3}: <code>zcode</code>
-#. {ph4}: <code>dsh</code>
-#: website/public/get-started/index.html:719
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
-"DeepSeek Harness ({ph4}) are available on repository main; use a source "
-"build or a release containing those integrations."
-msgstr ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) และ "
-"DeepSeek Harness ({ph4}) มีในสาขา main ของคลังซอร์ส "
-"ให้ใช้รุ่นที่สร้างจากซอร์ส หรือรุ่นที่ออกเผยแพร่ซึ่งมีการเชื่อมต่อเหล่านี้"
-
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md" >
 #. {ph1}: </a >
@@ -13296,7 +13268,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#released-
 #. package-and-main" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:726
+#: website/public/get-started/index.html:759
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13304,13 +13276,13 @@ msgid ""
 "availability{ph3}"
 msgstr "{ph0}ตั้งค่าแอปและแก้ปัญหา{ph1} · {ph2}การรองรับในรุ่นที่เผยแพร่{ph3}"
 
-#: website/public/get-started/index.html:738
+#: website/public/get-started/index.html:771
 msgctxt "page:get-started/index.html"
 msgid "Grok Bot · connect on its hosted computer"
 msgstr "Grok Bot · เชื่อมต่อบนคอมพิวเตอร์ที่รัน Bot"
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:739
+#: website/public/get-started/index.html:772
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13323,29 +13295,29 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md#other-client-settings" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:757
+#: website/public/get-started/index.html:790
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Grok Bot connector instructions{ph1}"
 msgstr "{ph0}คำแนะนำการเชื่อมต่อ Grok Bot{ph1}"
 
-#: website/public/get-started/index.html:767
+#: website/public/get-started/index.html:800
 msgctxt "page:get-started/index.html"
 msgid "3. Connect REA"
 msgstr "3. เชื่อมต่อ REA"
 
-#: website/public/get-started/index.html:768
+#: website/public/get-started/index.html:801
 msgctxt "page:get-started/index.html"
 msgid "Copy this into your coding agent:"
 msgstr "วางพรอมป์ต์นี้ในผู้ช่วยเขียนโค้ด AI ของคุณ:"
 
-#: website/public/get-started/index.html:812
+#: website/public/get-started/index.html:845
 msgctxt "page:get-started/index.html"
 msgid "For one specific client, add its setup ID:"
 msgstr "หากต้องการเลือกแอปใดแอปหนึ่ง ให้เพิ่ม ID สำหรับตั้งค่าของแอปนั้น:"
 
 #. {ph0}: <code>y</code>
-#: website/public/get-started/index.html:827
+#: website/public/get-started/index.html:860
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13357,7 +13329,7 @@ msgstr ""
 "ในรายการแอปของ REA ใช้ปุ่มลูกศรเพื่อเลื่อน กด Space เพื่อเลือกแอป และ Enter "
 "เพื่อดำเนินการต่อ"
 
-#: website/public/get-started/index.html:838
+#: website/public/get-started/index.html:871
 msgctxt "page:get-started/index.html"
 msgid ""
 "MCP is the connection that lets your agent call REA. The skill gives it a "
@@ -13366,7 +13338,7 @@ msgstr ""
 "MCP คือการเชื่อมต่อที่ให้ผู้ช่วย AI เรียกใช้ REA ได้ "
 "ส่วนสกิลบอกขั้นตอนการสำรวจซอฟต์แวร์ให้ผู้ช่วย"
 
-#: website/public/get-started/index.html:842
+#: website/public/get-started/index.html:875
 msgctxt "page:get-started/index.html"
 msgid ""
 "For the first exercise, you can skip the optional Hopper installation. "
@@ -13377,7 +13349,7 @@ msgstr ""
 
 #. {ph0}: <code>codex</code>
 #. {ph1}: <code>"healthy": true</code>
-#: website/public/get-started/index.html:875
+#: website/public/get-started/index.html:908
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13387,20 +13359,20 @@ msgstr ""
 "แทนที่ {ph0} ด้วย ID สำหรับตั้งค่าของแอปที่ใช้ หากตรวจสอบสำเร็จ จะรายงาน "
 "{ph1} จากนั้นบอกผู้ช่วย AI ว่า:"
 
-#: website/public/get-started/index.html:881
+#: website/public/get-started/index.html:914
 msgctxt "page:get-started/index.html"
 msgid "Check that REA is connected and show me which REA tools you can use."
 msgstr ""
 "ตรวจสอบว่าเชื่อมต่อ REA แล้ว และบอกฉันว่าคุณใช้เครื่องมือ REA ใดได้บ้าง"
 
-#: website/public/get-started/index.html:888
+#: website/public/get-started/index.html:921
 msgctxt "page:get-started/index.html"
 msgid "4. Try your first investigation"
 msgstr "4. ลองสำรวจแอปเป็นครั้งแรก"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:889
+#: website/public/get-started/index.html:922
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13411,7 +13383,7 @@ msgstr ""
 "ตัวอย่างนี้เป็นแอป Electron ที่มี 6 ไฟล์และปุ่ม {ph0}Export notes{ph1} "
 "ผู้ช่วย AI สำรวจโค้ดได้โดยไม่ต้องติดตั้งหรือเรียกใช้ Electron"
 
-#: website/public/get-started/index.html:896
+#: website/public/get-started/index.html:929
 msgctxt "page:get-started/index.html"
 msgid "Your coding agent"
 msgstr "ผู้ช่วย AI เขียนโค้ดของคุณ"
@@ -13425,7 +13397,7 @@ msgstr "ผู้ช่วย AI เขียนโค้ดของคุณ"
 #. {ph5}: </span >
 #. {ph6}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph7}: </span>
-#: website/public/get-started/index.html:906
+#: website/public/get-started/index.html:939
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13438,7 +13410,7 @@ msgstr ""
 "หาว่าเกิดอะไรขึ้นเมื่อฉันคลิก Export notes แสดงว่า {ph4} ถูกเขียนที่ใด "
 "มีฟิลด์อะไรบ้าง และไฟล์กับบรรทัดที่เกี่ยวข้อง{ph5}{ph6}{ph7}"
 
-#: website/public/get-started/index.html:920
+#: website/public/get-started/index.html:953
 msgctxt "page:get-started/index.html"
 msgid "Look for a short explanation with file and line references:"
 msgstr "ค้นหาคำอธิบายสั้นๆด้วยการอ้างอิงไฟล์และบรรทัด:"
@@ -13447,7 +13419,7 @@ msgstr "ค้นหาคำอธิบายสั้นๆด้วยกา
 #. {ph1}: <code>notes.csv</code>
 #. {ph2}: <code>id</code>
 #. {ph3}: <code>title</code>
-#: website/public/get-started/index.html:922
+#: website/public/get-started/index.html:955
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13460,13 +13432,13 @@ msgstr ""
 
 #. {ph0}: <a href="../first-investigation/#check" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:929
+#: website/public/get-started/index.html:962
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Check a prediction in the guided exercise →{ph1}"
 msgstr "{ph0}ทดสอบสิ่งที่คาดการณ์ในแบบฝึกหัดพร้อมคำแนะนำ →{ph1}"
 
-#: website/public/get-started/index.html:935
+#: website/public/get-started/index.html:968
 msgctxt "page:get-started/index.html"
 msgid "Download the example yourself, or use your own app"
 msgstr "ดาวน์โหลดตัวอย่างเอง หรือใช้แอปของคุณ"
@@ -13474,14 +13446,14 @@ msgstr "ดาวน์โหลดตัวอย่างเอง หรื�
 #. {ph0}: <a class="button" href="../examples/notes-example.zip"
 #. download="notes-example.zip" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:938
+#: website/public/get-started/index.html:971
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download example ZIP{ph1}"
 msgstr "{ph0}ดาวน์โหลดไฟล์ ZIP ตัวอย่าง{ph1}"
 
 #. {ph0}: <code>notes-example</code>
-#: website/public/get-started/index.html:946
+#: website/public/get-started/index.html:979
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13492,7 +13464,7 @@ msgstr ""
 " ให้มันเส้นทางไป {ph0} โฟลเดอร์และคำถามการส่งออกเดียวกัน"
 
 #. {ph0}: <code>/absolute/path/to/app</code>
-#: website/public/get-started/index.html:952
+#: website/public/get-started/index.html:985
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13502,12 +13474,12 @@ msgstr ""
 "ใช้ REA สำรวจแอปที่ {ph0} หาวิธีส่งออกข้อมูล "
 "และแสดงไฟล์กับบรรทัดที่เกี่ยวข้อง"
 
-#: website/public/get-started/index.html:982
+#: website/public/get-started/index.html:1015
 msgctxt "page:get-started/index.html"
 msgid "Analyze another kind of software"
 msgstr "วิเคราะห์ซอฟต์แวร์ประเภทอื่น"
 
-#: website/public/get-started/index.html:983
+#: website/public/get-started/index.html:1016
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose the section for your target. A provider is the local analysis tool "
@@ -13516,12 +13488,12 @@ msgstr ""
 "เลือกหัวข้อที่ตรงกับเป้าหมายของคุณ Provider "
 "คือเครื่องมือวิเคราะห์บนเครื่องที่ REA ใช้กับซอฟต์แวร์ประเภทนั้น"
 
-#: website/public/get-started/index.html:988
+#: website/public/get-started/index.html:1021
 msgctxt "page:get-started/index.html"
 msgid "Native executables and libraries · Hopper, Ghidra or IDA"
 msgstr "ไฟล์ปฏิบัติการและไลบรารีเนทีฟ · Hopper, Ghidra หรือ IDA"
 
-#: website/public/get-started/index.html:991
+#: website/public/get-started/index.html:1024
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install one analysis tool on the computer running REA. The host is your "
@@ -13530,47 +13502,47 @@ msgstr ""
 "ติดตั้งเครื่องมือวิเคราะห์หนึ่งตัวบนคอมพิวเตอร์ที่รัน REA "
 "โฮสต์คือระบบปฏิบัติการที่คุณใช้ ส่วนเป้าหมายคือโปรแกรมที่ต้องการวิเคราะห์"
 
-#: website/public/get-started/index.html:1000
+#: website/public/get-started/index.html:1033
 msgctxt "page:get-started/index.html"
 msgid "Provider"
 msgstr "เครื่องมือวิเคราะห์"
 
-#: website/public/get-started/index.html:1009
+#: website/public/get-started/index.html:1042
 msgctxt "page:get-started/index.html"
 msgid "Unavailable"
 msgstr "ไม่รองรับ"
 
-#: website/public/get-started/index.html:1011
+#: website/public/get-started/index.html:1044
 msgctxt "page:get-started/index.html"
 msgid "Supported distributions"
 msgstr "ดิสทริบิวชันที่รองรับ"
 
-#: website/public/get-started/index.html:1015
+#: website/public/get-started/index.html:1048
 msgctxt "page:get-started/index.html"
 msgid "x64 · experimental"
 msgstr "x64 · ทดลอง"
 
-#: website/public/get-started/index.html:1021
+#: website/public/get-started/index.html:1054
 msgctxt "page:get-started/index.html"
 msgid "Verified profiles"
 msgstr "รูปแบบการตั้งค่าที่ตรวจสอบแล้ว"
 
-#: website/public/get-started/index.html:1022
+#: website/public/get-started/index.html:1055
 msgctxt "page:get-started/index.html"
 msgid "Verified headless profile"
 msgstr "การตั้งค่าแบบไม่มี GUI ที่ตรวจสอบแล้ว"
 
-#: website/public/get-started/index.html:1023
+#: website/public/get-started/index.html:1056
 msgctxt "page:get-started/index.html"
 msgid "See provider guide"
 msgstr "ดูคู่มือเครื่องมือวิเคราะห์"
 
-#: website/public/get-started/index.html:1029
+#: website/public/get-started/index.html:1062
 msgctxt "page:get-started/index.html"
 msgid "Hopper · let setup install or connect it"
 msgstr "Hopper · ให้ขั้นตอนตั้งค่าติดตั้งหรือเชื่อมต่อให้"
 
-#: website/public/get-started/index.html:1035
+#: website/public/get-started/index.html:1068
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose Hopper in setup and review its separate installation plan. On macOS, "
@@ -13581,7 +13553,7 @@ msgstr ""
 "ให้เลือกโหมดเดโมหรือเปิดใช้งานใบอนุญาตเมื่อเปิด Hopper ครั้งแรก บน Linux "
 "ขั้นตอนตั้งค่าจะเตรียมเดโมที่รองรับและจอแสดงผลเฉพาะของเดโม"
 
-#: website/public/get-started/index.html:1041
+#: website/public/get-started/index.html:1074
 msgctxt "page:get-started/index.html"
 msgid ""
 "Linux hosts: Ubuntu 24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS or "
@@ -13590,7 +13562,7 @@ msgstr ""
 "โฮสต์ Linux: Ubuntu 24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS หรือ"
 " Omarchy Hopper เป็นซอฟต์แวร์เชิงพาณิชย์ และเดโมมีข้อจำกัดตามที่ผู้ผลิตกำหนด"
 
-#: website/public/get-started/index.html:1060
+#: website/public/get-started/index.html:1093
 msgctxt "page:get-started/index.html"
 msgid ""
 "If macOS asks for Automation permission, allow the app that starts REA in "
@@ -13603,18 +13575,18 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#hopper"
 #. >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1065
+#: website/public/get-started/index.html:1098
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Hopper setup and troubleshooting{ph1}"
 msgstr "{ph0}ตั้งค่า Hopper และแก้ปัญหา{ph1}"
 
-#: website/public/get-started/index.html:1073
+#: website/public/get-started/index.html:1106
 msgctxt "page:get-started/index.html"
 msgid "Ghidra · install the free analysis tool and Java"
 msgstr "Ghidra · ติดตั้งเครื่องมือวิเคราะห์ฟรีและ Java"
 
-#: website/public/get-started/index.html:1077
+#: website/public/get-started/index.html:1110
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install a 64-bit JDK 21 or newer, including the Java compiler. Choose the "
@@ -13624,7 +13596,7 @@ msgstr ""
 "เลือกแพ็กเกจที่ตรงกับสถาปัตยกรรมของคอมพิวเตอร์"
 
 #. {ph0}: <code>ghidra_…_PUBLIC_….zip</code>
-#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1115
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13637,7 +13609,7 @@ msgstr ""
 #. {ph0}: <code>ghidraRun</code>
 #. {ph1}: <code>ghidraRun.bat</code>
 #. {ph2}: <code>GHIDRA_INSTALL_DIR</code>
-#: website/public/get-started/index.html:1087
+#: website/public/get-started/index.html:1120
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13652,7 +13624,7 @@ msgstr ""
 #. href="https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build"
 #. >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1093
+#: website/public/get-started/index.html:1126
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download a JDK{ph1} · {ph2}Download Ghidra 12.1.4{ph3}"
@@ -13660,7 +13632,7 @@ msgstr "{ph0}ดาวน์โหลด JDK{ph1} · {ph2}ดาวน์โห�
 
 #. {ph0}: <code>java.home</code>
 #. {ph1}: <code>JAVA_HOME</code>
-#: website/public/get-started/index.html:1103
+#: website/public/get-started/index.html:1136
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13670,7 +13642,7 @@ msgstr ""
 "ตรวจสอบ Java คำสั่งแรกจะแสดง {ph0} ให้ใช้โฟลเดอร์นั้นเป็นค่า {ph1} "
 "คำสั่งที่สองยืนยันว่าติดตั้งคอมไพเลอร์แล้ว:"
 
-#: website/public/get-started/index.html:1219
+#: website/public/get-started/index.html:1252
 msgctxt "page:get-started/index.html"
 msgid ""
 "Keep these commands in the same terminal session. Rerun setup after setting "
@@ -13688,7 +13660,7 @@ msgstr ""
 #. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/windows-
 #. ghidra-p0.md" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1224
+#: website/public/get-started/index.html:1257
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13698,12 +13670,12 @@ msgstr ""
 "{ph0}ตั้งค่า Ghidra และข้อกำหนดด้านสถาปัตยกรรม{ph1} · {ph2}คู่มือ Ghidra บน "
 "Windows{ph3}"
 
-#: website/public/get-started/index.html:1237
+#: website/public/get-started/index.html:1270
 msgctxt "page:get-started/index.html"
 msgid "IDA · connect an existing installation"
 msgstr "IDA · เชื่อมต่อกับที่ติดตั้งไว้แล้ว"
 
-#: website/public/get-started/index.html:1238
+#: website/public/get-started/index.html:1271
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the IDA provider guide to prepare an upstream MCP registration. Choose "
@@ -13714,7 +13686,7 @@ msgstr ""
 "เลือกเชื่อมต่อกับ GUI ที่เปิดไบนารีต้นฉบับอยู่ หรือใช้โพรเซสควบคุมแบบไม่มี "
 "GUI ที่เปิดฐานข้อมูลเฉพาะ"
 
-#: website/public/get-started/index.html:1243
+#: website/public/get-started/index.html:1276
 msgctxt "page:get-started/index.html"
 msgid ""
 "Verified profiles include the Windows legacy GUI and headless supervisor, "
@@ -13725,7 +13697,7 @@ msgstr ""
 "รวมถึงโพรเซสควบคุมแบบไม่มี GUI บน macOS arm64 ที่ใช้ IDA Professional 9.1 "
 "บริดจ์ GUI เนทีฟที่เป็นตัวเลือกเสริมมีข้อกำหนดด้านรุ่นและแพลตฟอร์มของตัวเอง"
 
-#: website/public/get-started/index.html:1338
+#: website/public/get-started/index.html:1372
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the JSON registration file you prepared with the provider guide, then "
@@ -13737,13 +13709,13 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/ida-
 #. provider.md" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1342
+#: website/public/get-started/index.html:1376
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}IDA profiles, registration examples and verified platforms{ph1}"
 msgstr "{ph0}รูปแบบ IDA ตัวอย่างการลงทะเบียน และแพลตฟอร์มที่ตรวจสอบแล้ว{ph1}"
 
-#: website/public/get-started/index.html:1350
+#: website/public/get-started/index.html:1384
 msgctxt "page:get-started/index.html"
 msgid ""
 "Once connected, give your agent the original executable's full path and name"
@@ -13755,18 +13727,18 @@ msgstr ""
 
 #. {ph0}: <a href="../guides/native/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1362
+#: website/public/get-started/index.html:1396
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Follow a native analysis example{ph1}"
 msgstr "{ph0}ทำตามตัวอย่างการวิเคราะห์เนทีฟ{ph1}"
 
-#: website/public/get-started/index.html:1367
+#: website/public/get-started/index.html:1401
 msgctxt "page:get-started/index.html"
 msgid "Websites, Android, .NET, firmware and other targets"
 msgstr "เว็บไซต์ Android, .NET, เฟิร์มแวร์ และเป้าหมายอื่น"
 
-#: website/public/get-started/index.html:1370
+#: website/public/get-started/index.html:1404
 msgctxt "page:get-started/index.html"
 msgid ""
 "Open the guide for the target you have. Each guide gives the additional "
@@ -13775,110 +13747,110 @@ msgstr ""
 "เปิดคู่มือสำหรับเป้าหมายที่คุณมี แต่ละคู่มือระบุเครื่องมือเพิ่มเติม "
 "โฮสต์ที่รองรับ และคำสั่งแรก"
 
-#: website/public/get-started/index.html:1378
+#: website/public/get-started/index.html:1412
 msgctxt "page:get-started/index.html"
 msgid "Target"
 msgstr "เป้าหมาย"
 
-#: website/public/get-started/index.html:1379
+#: website/public/get-started/index.html:1413
 msgctxt "page:get-started/index.html"
 msgid "Tools to prepare"
 msgstr "เครื่องมือที่ต้องเตรียม"
 
-#: website/public/get-started/index.html:1380
+#: website/public/get-started/index.html:1414
 msgctxt "page:get-started/index.html"
 msgid "Guide"
 msgstr "คู่มือ"
 
-#: website/public/get-started/index.html:1385
+#: website/public/get-started/index.html:1419
 msgctxt "page:get-started/index.html"
 msgid "JavaScript / Electron"
 msgstr "JavaScript / Electron"
 
 #. {ph0}: <a href="../guides/javascript/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1387
-#: website/public/get-started/index.html:1392
-#: website/public/get-started/index.html:1397
-#: website/public/get-started/index.html:1407
-#: website/public/get-started/index.html:1417
-#: website/public/get-started/index.html:1427
-#: website/public/get-started/index.html:1437
-#: website/public/get-started/index.html:1447
-#: website/public/get-started/index.html:1457
-#: website/public/get-started/index.html:1467
-#: website/public/get-started/index.html:1477
-#: website/public/get-started/index.html:1487
-#: website/public/get-started/index.html:1497
-#: website/public/get-started/index.html:1507
-#: website/public/get-started/index.html:1517
-#: website/public/get-started/index.html:1527
+#: website/public/get-started/index.html:1421
+#: website/public/get-started/index.html:1426
+#: website/public/get-started/index.html:1431
+#: website/public/get-started/index.html:1441
+#: website/public/get-started/index.html:1451
+#: website/public/get-started/index.html:1461
+#: website/public/get-started/index.html:1471
+#: website/public/get-started/index.html:1481
+#: website/public/get-started/index.html:1491
+#: website/public/get-started/index.html:1501
+#: website/public/get-started/index.html:1511
+#: website/public/get-started/index.html:1521
+#: website/public/get-started/index.html:1531
+#: website/public/get-started/index.html:1541
+#: website/public/get-started/index.html:1551
+#: website/public/get-started/index.html:1561
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Open guide{ph1}"
 msgstr "{ph0}เปิดคู่มือ{ph1}"
 
-#: website/public/get-started/index.html:1390
+#: website/public/get-started/index.html:1424
 msgctxt "page:get-started/index.html"
 msgid "Website"
 msgstr "เว็บไซต์"
 
-#: website/public/get-started/index.html:1395
+#: website/public/get-started/index.html:1429
 msgctxt "page:get-started/index.html"
 msgid ".NET / Flutter / packages"
 msgstr ".NET / Flutter / แพ็กเกจ"
 
-#: website/public/get-started/index.html:1405
+#: website/public/get-started/index.html:1439
 msgctxt "page:get-started/index.html"
 msgid "Android APK"
 msgstr "Android APK"
 
-#: website/public/get-started/index.html:1415
+#: website/public/get-started/index.html:1449
 msgctxt "page:get-started/index.html"
 msgid "Android device"
 msgstr "อุปกรณ์ Android"
 
-#: website/public/get-started/index.html:1425
+#: website/public/get-started/index.html:1459
 msgctxt "page:get-started/index.html"
 msgid "Android resources"
 msgstr "ทรัพยากร Android"
 
-#: website/public/get-started/index.html:1435
+#: website/public/get-started/index.html:1469
 msgctxt "page:get-started/index.html"
 msgid "JEB project"
 msgstr "โปรเจกต์ JEB"
 
-#: website/public/get-started/index.html:1445
+#: website/public/get-started/index.html:1479
 msgctxt "page:get-started/index.html"
 msgid "Firmware"
 msgstr "เฟิร์มแวร์"
 
-#: website/public/get-started/index.html:1455
+#: website/public/get-started/index.html:1489
 msgctxt "page:get-started/index.html"
 msgid "WASM"
 msgstr "WASM"
 
-#: website/public/get-started/index.html:1485
+#: website/public/get-started/index.html:1519
 msgctxt "page:get-started/index.html"
 msgid "ELF / Linux crash"
 msgstr "ELF / โปรแกรมขัดข้องบน Linux"
 
-#: website/public/get-started/index.html:1495
+#: website/public/get-started/index.html:1529
 msgctxt "page:get-started/index.html"
 msgid "HAR / SAZ / mitmproxy"
 msgstr "HAR / SAZ / mitmproxy"
 
-#: website/public/get-started/index.html:1505
+#: website/public/get-started/index.html:1539
 msgctxt "page:get-started/index.html"
 msgid "PCAP / PCAPNG"
 msgstr "PCAP / PCAPNG"
 
-#: website/public/get-started/index.html:1515
+#: website/public/get-started/index.html:1549
 msgctxt "page:get-started/index.html"
 msgid "Logic signals"
 msgstr "สัญญาณลอจิก"
 
-#: website/public/get-started/index.html:1525
+#: website/public/get-started/index.html:1559
 msgctxt "page:get-started/index.html"
 msgid "Process behavior"
 msgstr "พฤติกรรมของโพรเซส"
@@ -13894,7 +13866,7 @@ msgstr "พฤติกรรมของโพรเซส"
 #. {ph5}: </a >
 #. {ph6}: <a href="../guides/">
 #. {ph7}: </a>
-#: website/public/get-started/index.html:1537
+#: website/public/get-started/index.html:1571
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13904,18 +13876,18 @@ msgstr ""
 "{ph0}คู่มือ Flutter{ph1} · {ph2}แพ็กเกจและทรัพยากร{ph3} · {ph4}ไบต์โค้ด "
 "EVM{ph5} · {ph6}คู่มือการสำรวจทั้งหมด{ph7}"
 
-#: website/public/get-started/index.html:1557
+#: website/public/get-started/index.html:1591
 msgctxt "page:get-started/index.html"
 msgid "Use REA from a terminal"
 msgstr "ใช้ REA จากเทอร์มินัล"
 
-#: website/public/get-started/index.html:1559
+#: website/public/get-started/index.html:1593
 msgctxt "page:get-started/index.html"
 msgid "CLI commands, global installation and curl"
 msgstr "คำสั่ง CLI การติดตั้งแบบโกลบอล และ curl"
 
 #. {ph0}: <code>main</code>
-#: website/public/get-started/index.html:1656
+#: website/public/get-started/index.html:1690
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13925,7 +13897,7 @@ msgstr ""
 "แทนที่ {ph0} ด้วยชื่อฟังก์ชันหรือที่อยู่จากรายการฟังก์ชันของเป้าหมาย "
 "ต้องตั้งค่า Ghidra ก่อน"
 
-#: website/public/get-started/index.html:1660
+#: website/public/get-started/index.html:1694
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS or Linux, you can also use the curl installer after preparing "
@@ -13934,7 +13906,7 @@ msgstr ""
 "บน macOS หรือ Linux คุณใช้ตัวติดตั้งผ่าน curl ได้เช่นกัน หลังเตรียม Node.js "
 "แล้ว:"
 
-#: website/public/get-started/index.html:1698
+#: website/public/get-started/index.html:1732
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the client check in step 3 with your setup ID. In editor clients, enable"
@@ -13944,12 +13916,12 @@ msgstr ""
 "สำหรับโปรแกรมแก้ไขโค้ด ให้เปิดใช้ REA ในการตั้งค่า MCP "
 "และอนุญาตเครื่องมือในแชตของผู้ช่วย AI"
 
-#: website/public/get-started/index.html:1726
+#: website/public/get-started/index.html:1760
 msgctxt "page:get-started/index.html"
 msgid "Windows, WSL and paths with spaces"
 msgstr "Windows, WSL และพาธที่มีช่องว่าง"
 
-#: website/public/get-started/index.html:1727
+#: website/public/get-started/index.html:1761
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use Windows PowerShell for Windows clients and analysis tools. If your agent"
@@ -13960,17 +13932,17 @@ msgstr ""
 "AI ทำงานใน WSL ให้ติดตั้ง Node.js และ REA ในสภาพแวดล้อม Linux นั้น และใช้พาธ"
 " Linux เครื่องมือวิเคราะห์แบบไม่มี GUI ทำงานบนโฮสต์เดียวกับ REA"
 
-#: website/public/get-started/index.html:1736
+#: website/public/get-started/index.html:1770
 msgctxt "page:get-started/index.html"
 msgid "Windows setup command:"
 msgstr "คำสั่งตั้งค่าบน Windows:"
 
-#: website/public/get-started/index.html:1753
+#: website/public/get-started/index.html:1787
 msgctxt "page:get-started/index.html"
 msgid "Update or remove REA"
 msgstr "อัปเดตหรือลบ REA"
 
-#: website/public/get-started/index.html:1754
+#: website/public/get-started/index.html:1788
 msgctxt "page:get-started/index.html"
 msgid ""
 "To refresh your agent connection, run the latest setup command again, review"
@@ -13982,7 +13954,7 @@ msgstr ""
 
 #. {ph0}: <code>rea update</code>
 #. {ph1}: <code>npx rea-agents@latest uninstall</code>
-#: website/public/get-started/index.html:1772
+#: website/public/get-started/index.html:1806
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13996,7 +13968,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#diagnose-
 #. update-and-remove" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1778
+#: website/public/get-started/index.html:1812
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Update and uninstall details{ph1}"
@@ -14015,27 +13987,27 @@ msgstr "คัดลอกคำสั่งตั้งค่า REA บน Win
 #: website/public/get-started/index.html:550
 #: website/public/get-started/index.html:582
 #: website/public/get-started/index.html:611
-#: website/public/get-started/index.html:746
-#: website/public/get-started/index.html:801
-#: website/public/get-started/index.html:816
-#: website/public/get-started/index.html:864
-#: website/public/get-started/index.html:1049
-#: website/public/get-started/index.html:1111
-#: website/public/get-started/index.html:1134
-#: website/public/get-started/index.html:1158
-#: website/public/get-started/index.html:1206
-#: website/public/get-started/index.html:1281
-#: website/public/get-started/index.html:1307
-#: website/public/get-started/index.html:1324
-#: website/public/get-started/index.html:1645
-#: website/public/get-started/index.html:1667
-#: website/public/get-started/index.html:1740
-#: website/public/get-started/index.html:1761
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
+#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1315
+#: website/public/get-started/index.html:1341
+#: website/public/get-started/index.html:1358
+#: website/public/get-started/index.html:1679
+#: website/public/get-started/index.html:1701
+#: website/public/get-started/index.html:1774
+#: website/public/get-started/index.html:1795
 msgctxt "page:get-started/index.html"
 msgid "Copy command"
 msgstr "คัดลอกคำสั่ง"
 
-#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:930
 msgctxt "page:get-started/index.html"
 msgid "Copy Notes investigation prompt"
 msgstr "คัดลอกบันทึกการตรวจสอบพรอมต์"
@@ -14086,14 +14058,14 @@ msgctxt "page:get-started/index.html"
 msgid "OpenCode · choose an AI model"
 msgstr "OpenCode · เลือกโมเดล AI"
 
-#: website/public/get-started/index.html:1265
+#: website/public/get-started/index.html:1299
 msgctxt "page:get-started/index.html"
 msgid "Prepare the IDA registration file"
 msgstr "เตรียมไฟล์ลงทะเบียน IDA"
 
 #. {ph0}: <code>ida-mcp.json</code>
 #. {ph1}: <code>.txt</code>
-#: website/public/get-started/index.html:1266
+#: website/public/get-started/index.html:1300
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14108,7 +14080,7 @@ msgstr ""
 #. {ph0}: <code>idb_open</code>
 #. {ph1}: <code>idb_list</code>
 #. {ph2}: <code>idb_close</code>
-#: website/public/get-started/index.html:1273
+#: website/public/get-started/index.html:1307
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14121,7 +14093,7 @@ msgstr ""
 #. {ph0}: <code>command</code>
 #. {ph1}: <code>args</code>
 #. {ph2}: <code>env</code>
-#: website/public/get-started/index.html:1296
+#: website/public/get-started/index.html:1330
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14133,12 +14105,12 @@ msgstr ""
 "{ph1} ที่ใช้งานได้ และ {ph2} หากมี ลงในไฟล์ เปิดไบนารีต้นฉบับใน IDA "
 "และเริ่มปลั๊กอินฝั่ง IDA ก่อนขอให้ REA สำรวจ"
 
-#: website/public/get-started/index.html:1465
+#: website/public/get-started/index.html:1499
 msgctxt "page:get-started/index.html"
 msgid "SQLite database"
 msgstr "ฐานข้อมูล SQLite"
 
-#: website/public/get-started/index.html:1475
+#: website/public/get-started/index.html:1509
 msgctxt "page:get-started/index.html"
 msgid "EVM bytecode"
 msgstr "ไบต์โค้ด EVM"
@@ -14194,7 +14166,7 @@ msgstr ""
 "ตรวจสอบและอนุมัติแผน เปิด Claude ใหม่ "
 "แล้ว{ph0}ตรวจสอบการเชื่อมต่อในขั้นตอนที่ 3{ph1}"
 
-#: website/public/get-started/index.html:1170
+#: website/public/get-started/index.html:1203
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace both paths with your existing installations. For a fresh macOS or "
@@ -14204,12 +14176,12 @@ msgstr ""
 "แทนที่ทั้งสองพาธด้วยตำแหน่งที่ติดตั้งไว้ หากเพิ่งติดตั้งบน macOS หรือ Linux "
 "arm64 ให้สร้างดีคอมไพเลอร์เนทีฟสำหรับคอมพิวเตอร์ของคุณก่อนดำเนินการต่อ"
 
-#: website/public/get-started/index.html:1176
+#: website/public/get-started/index.html:1209
 msgctxt "page:get-started/index.html"
 msgid "Build Ghidra's native decompiler"
 msgstr "สร้างดีคอมไพเลอร์เนทีฟของ Ghidra"
 
-#: website/public/get-started/index.html:1177
+#: website/public/get-started/index.html:1210
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS, the build needs Xcode Command Line Tools, make and bison. Use the "
@@ -14222,7 +14194,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#missing-
 #. macos-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1182
+#: website/public/get-started/index.html:1215
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Intel{ph1}"
@@ -14232,7 +14204,7 @@ msgstr "{ph0}macOS · Intel{ph1}"
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#macos-
 #. arm64-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1188
+#: website/public/get-started/index.html:1221
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Apple Silicon{ph1}"
@@ -14242,13 +14214,13 @@ msgstr "{ph0}macOS · Apple Silicon{ph1}"
 #. href="https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/GhidraDocs/GettingStarted.md#building-
 #. native-components" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1194
+#: website/public/get-started/index.html:1227
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux arm64 · native build instructions{ph1}"
 msgstr "{ph0}Linux arm64 · ขั้นตอนการสร้างเนทีฟ{ph1}"
 
-#: website/public/get-started/index.html:1202
+#: website/public/get-started/index.html:1235
 msgctxt "page:get-started/index.html"
 msgid "Then check Ghidra and save its paths for your client:"
 msgstr "จากนั้นตรวจสอบ Ghidra และบันทึกพาธสำหรับแอปที่เชื่อมต่อของคุณ:"
@@ -14633,7 +14605,7 @@ msgid "Other install options: {ph0}{ph1} →{ph2}"
 msgstr "วิธีติดตั้งอื่น: {ph0}{ph1} →{ph2}"
 
 #. {ph0}: <code>rea setup</code>
-#: website/public/get-started/index.html:1678
+#: website/public/get-started/index.html:1712
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14643,27 +14615,10 @@ msgstr ""
 "ทำตามคำแนะนำการตั้งค่าเพื่อเชื่อมต่อเอเจนต์ หากไม่มีคำแนะนำปรากฏ ให้รัน "
 "{ph0}"
 
-#. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
-#. setup" >
-#. {ph1}: </a >
-#. {ph2}: <code>6.4.0</code>
-#: website/public/get-started/index.html:1249
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"The macOS headless profile and native GUI bridge require a {ph0}REA source "
-"build{ph1} or a release containing those changes. npm {ph2} does not include"
-" them."
-msgstr ""
-"โปรไฟล์แบบไม่มี GUI บน macOS และบริดจ์ GUI แบบเนทีฟต้องใช้ {ph0}REA "
-"ที่บิลด์จากซอร์ส{ph1} หรือรุ่นที่รวมการเปลี่ยนแปลงเหล่านี้ รุ่น npm {ph2} "
-"ยังไม่มีการเปลี่ยนแปลงดังกล่าว"
-
 #. {ph0}: <code>node scripts/rea.mjs doctor --provider ida --json</code>
 #. {ph1}: <code>node scripts/rea.mjs setup</code>
 #. {ph2}: <code>npx</code>
-#: website/public/get-started/index.html:1258
+#: website/public/get-started/index.html:1292
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14674,7 +14629,7 @@ msgstr ""
 
 #. {ph0}: <code>rea</code>
 #. {ph1}: <code>"$HOME/.local/bin/rea" setup</code>
-#: website/public/get-started/index.html:1682
+#: website/public/get-started/index.html:1716
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14685,7 +14640,7 @@ msgstr ""
 "คำสั่งตั้งค่าเริ่มต้นคือ {ph1}"
 
 #. {ph0}: <code>/absolute/path/to/program</code>
-#: website/public/get-started/index.html:1355
+#: website/public/get-started/index.html:1389
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14704,7 +14659,7 @@ msgstr ""
 #: website/public/examples/dino-lab/index.html:475
 #: website/public/faq/index.html:573
 #: website/public/first-investigation/index.html:534
-#: website/public/get-started/index.html:1817
+#: website/public/get-started/index.html:1851
 #: website/public/guides/browser/index.html:507
 #: website/public/guides/index.html:301
 #: website/public/guides/javascript/index.html:503
@@ -15560,6 +15515,80 @@ msgstr "REA-วิศวกรรมย้อนกลับสำหรับ�
 msgctxt "page:index.html"
 msgid "See the full Calculator investigation"
 msgstr "ดูการตรวจสอบเครื่องคิดเลขทั้งหมด"
+
+#. {ph0}: <code>--client</code>
+#: website/public/get-started/index.html:635
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"The npm 6.8.0 release supports the clients below. Use the ID with {ph0} when"
+" choosing a client explicitly."
+msgstr ""
+
+#. {ph0}: <code>droid</code>
+#. {ph1}: <code>dsh</code>
+#. {ph2}: <code>kimi</code>
+#. {ph3}: <code>qoder</code>
+#. {ph4}: <code>trae</code>
+#. {ph5}: <code>workbuddy</code>
+#. {ph6}: <code>zcode</code>
+#. {ph7}: <code>rea-agents@6.5.0</code>
+#. {ph8}: <code>freebuff</code>
+#. {ph9}: <code>rea-agents@6.8.0</code>
+#: website/public/get-started/index.html:751
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} and {ph6} require {ph7} or later; "
+"{ph8} requires {ph9} or later. Older releases reject them as unsupported "
+"clients."
+msgstr ""
+
+#. {ph0}: <code>rea-agents@6.5.0</code>
+#. {ph1}: <code>6.4.0</code>
+#. {ph2}: <a
+#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
+#. setup" >
+#. {ph3}: </a >
+#: website/public/get-started/index.html:1282
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"The macOS headless profile and native GUI bridge are included from {ph0}; "
+"npm {ph1} and earlier do not include them. A {ph2}REA source build{ph3} also"
+" works."
+msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
+#~ " choosing a client explicitly."
+#~ msgstr ""
+#~ "รุ่น npm 6.4.0 รองรับแอปด้านล่าง หากต้องการระบุแอปโดยตรง ให้ใช้ ID คู่กับ "
+#~ "{ph0}"
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
+#~ "DeepSeek Harness ({ph4}) are available on repository main; use a source "
+#~ "build or a release containing those integrations."
+#~ msgstr ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) และ "
+#~ "DeepSeek Harness ({ph4}) มีในสาขา main ของคลังซอร์ส "
+#~ "ให้ใช้รุ่นที่สร้างจากซอร์ส หรือรุ่นที่ออกเผยแพร่ซึ่งมีการเชื่อมต่อเหล่านี้"
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "The macOS headless profile and native GUI bridge require a {ph0}REA source "
+#~ "build{ph1} or a release containing those changes. npm {ph2} does not include"
+#~ " them."
+#~ msgstr ""
+#~ "โปรไฟล์แบบไม่มี GUI บน macOS และบริดจ์ GUI แบบเนทีฟต้องใช้ {ph0}REA "
+#~ "ที่บิลด์จากซอร์ส{ph1} หรือรุ่นที่รวมการเปลี่ยนแปลงเหล่านี้ รุ่น npm {ph2} "
+#~ "ยังไม่มีการเปลี่ยนแปลงดังกล่าว"
 
 #~ msgctxt "page:index.html"
 #~ msgid "Calculator: by hand and with an agent"

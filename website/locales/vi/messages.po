@@ -71,7 +71,7 @@ msgstr "Bởi N0zoM1z0 * 10 tháng mười 2026"
 #: website/public/examples/dino-lab/index.html:484
 #: website/public/faq/index.html:582
 #: website/public/first-investigation/index.html:543
-#: website/public/get-started/index.html:1826
+#: website/public/get-started/index.html:1860
 #: website/public/guides/browser/index.html:516
 #: website/public/guides/index.html:310
 #: website/public/guides/javascript/index.html:512
@@ -3272,27 +3272,27 @@ msgstr "Thiết bị đầu cuối"
 #: website/public/get-started/index.html:550
 #: website/public/get-started/index.html:582
 #: website/public/get-started/index.html:611
-#: website/public/get-started/index.html:746
-#: website/public/get-started/index.html:776
-#: website/public/get-started/index.html:801
-#: website/public/get-started/index.html:816
-#: website/public/get-started/index.html:864
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:809
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
 #: website/public/get-started/index.html:897
-#: website/public/get-started/index.html:1049
-#: website/public/get-started/index.html:1111
-#: website/public/get-started/index.html:1134
-#: website/public/get-started/index.html:1158
-#: website/public/get-started/index.html:1206
-#: website/public/get-started/index.html:1281
-#: website/public/get-started/index.html:1307
-#: website/public/get-started/index.html:1324
-#: website/public/get-started/index.html:1567
-#: website/public/get-started/index.html:1626
-#: website/public/get-started/index.html:1645
-#: website/public/get-started/index.html:1667
-#: website/public/get-started/index.html:1710
-#: website/public/get-started/index.html:1740
-#: website/public/get-started/index.html:1761
+#: website/public/get-started/index.html:930
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1315
+#: website/public/get-started/index.html:1341
+#: website/public/get-started/index.html:1358
+#: website/public/get-started/index.html:1601
+#: website/public/get-started/index.html:1660
+#: website/public/get-started/index.html:1679
+#: website/public/get-started/index.html:1701
+#: website/public/get-started/index.html:1744
+#: website/public/get-started/index.html:1774
+#: website/public/get-started/index.html:1795
 msgctxt "page:get-started/index.html"
 msgid "Copy"
 msgstr "Sao chép"
@@ -3356,13 +3356,13 @@ msgstr "{ph0}Nhận trợ giúp{ph1}"
 #. {ph5}: <i>
 #. {ph6}: </i>
 #. {ph7}: </span >
-#: website/public/get-started/index.html:771
+#: website/public/get-started/index.html:804
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Your coding agent"
 msgstr "{ph0}{ph1}{ph2}{ph3}{ph4}{ph5}{ph6}{ph7}Trợ lý AI lập trình của bạn"
 
-#: website/public/get-started/index.html:797
+#: website/public/get-started/index.html:830
 msgctxt "page:get-started/index.html"
 msgid "Or run setup yourself"
 msgstr "Hoặc tự chạy thiết lập"
@@ -3429,7 +3429,7 @@ msgstr ""
 "Dán một lệnh với {ph0} {ph1} (macOS : {ph2} {ph3}; THIẾT BỊ ĐẦU CUỐI Linux: "
 "{ph4} {ph5} {ph6}), sau đó nhấn Enter."
 
-#: website/public/get-started/index.html:833
+#: website/public/get-started/index.html:866
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose your client and review the setup plan. REA adds its MCP connection "
@@ -3440,7 +3440,7 @@ msgstr ""
 "skill điều tra phù hợp, đồng thời sao lưu cấu hình hiện có. REA hỏi trước "
 "khi áp dụng thay đổi."
 
-#: website/public/get-started/index.html:847
+#: website/public/get-started/index.html:880
 msgctxt "page:get-started/index.html"
 msgid "How do I restart my client?"
 msgstr "Làm sao khởi động lại ứng dụng kết nối?"
@@ -3449,7 +3449,7 @@ msgstr "Làm sao khởi động lại ứng dụng kết nối?"
 #. {ph1}: </strong>
 #. {ph2}: <kbd>⌘</kbd>
 #. {ph3}: <kbd>Q</kbd>
-#: website/public/get-started/index.html:848
+#: website/public/get-started/index.html:881
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3464,7 +3464,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:855
+#: website/public/get-started/index.html:888
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3474,7 +3474,7 @@ msgstr ""
 "{ph0}Agent thiết bị đầu cuối{ph1} (Claude Code, Codex, Gemini CLI): thoát "
 "khỏi phiên và bắt đầu lại."
 
-#: website/public/get-started/index.html:959
+#: website/public/get-started/index.html:992
 msgctxt "page:get-started/index.html"
 msgid "How do I get a folder's full path?"
 msgstr "Làm cách nào để có được đường dẫn đầy đủ của một thư mục?"
@@ -3483,7 +3483,7 @@ msgstr "Làm cách nào để có được đường dẫn đầy đủ của m�
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:961
+#: website/public/get-started/index.html:994
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3498,7 +3498,7 @@ msgstr ""
 #. {ph1}: </strong>
 #. {ph2}: <em>
 #. {ph3}: </em>
-#: website/public/get-started/index.html:966
+#: website/public/get-started/index.html:999
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3510,7 +3510,7 @@ msgstr ""
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:970
+#: website/public/get-started/index.html:1003
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3520,15 +3520,15 @@ msgstr ""
 "{ph0}Bất kỳ hệ thống:{ph1} kéo thư mục vào cửa sổ đầu cuối và đường dẫn của "
 "nó xuất hiện."
 
-#: website/public/get-started/index.html:975
-#: website/public/get-started/index.html:1733
+#: website/public/get-started/index.html:1008
+#: website/public/get-started/index.html:1767
 msgctxt "page:get-started/index.html"
 msgid "In a terminal, put quotes around a path that contains spaces."
 msgstr ""
 "Trong một thiết bị đầu cuối, đặt dấu ngoặc kép xung quanh một đường dẫn có "
 "chứa khoảng trắng."
 
-#: website/public/get-started/index.html:1560
+#: website/public/get-started/index.html:1594
 msgctxt "page:get-started/index.html"
 msgid ""
 "Analyze a JavaScript or Electron application folder or ASAR archive without "
@@ -3537,14 +3537,14 @@ msgstr ""
 "Phân tích THƯ mục ỨNG DỤNG JavaScript hoặc Electron hoặc KHO LƯU TRỮ ASAR mà"
 " không cần chạy ứng dụng:"
 
-#: website/public/get-started/index.html:1566
+#: website/public/get-started/index.html:1600
 msgctxt "page:get-started/index.html"
 msgid "Static application analysis"
 msgstr "Phân tích ứng dụng tĩnh"
 
 #. {ph0}: <code>.asar</code>
 #. {ph1}: <code>"D:/apps/example"</code>
-#: website/public/get-started/index.html:1578
+#: website/public/get-started/index.html:1612
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3554,13 +3554,13 @@ msgstr ""
 "Thay thế đường dẫn bằng thư mục ứng dụng được trích xuất của bạn hoặc {ph0} "
 "tập tin. TRÊN Windows, một đường dẫn như {ph1} hoạt động ở đây."
 
-#: website/public/get-started/index.html:1584
+#: website/public/get-started/index.html:1618
 msgctxt "page:get-started/index.html"
 msgid "Where do I find an app's .asar file?"
 msgstr "Tìm tệp .asar của ứng dụng ở đâu?"
 
 #. {ph0}: <code>resources</code>
-#: website/public/get-started/index.html:1585
+#: website/public/get-started/index.html:1619
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Electron apps usually keep it in a {ph0} folder:"
@@ -3571,7 +3571,7 @@ msgstr "Electron ứng dụng thường giữ nó trong một {ph0} thư mục:"
 #. {ph2}: <code
 #. >C:\Users\&lt;you&gt;\AppData\Local\Programs\&lt;App&gt;\resources\app.asar</code
 #. >
-#: website/public/get-started/index.html:1590
+#: website/public/get-started/index.html:1624
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Windows:{ph1} {ph2}"
@@ -3583,7 +3583,7 @@ msgstr "{ph0} Windows :{ph1} {ph2}"
 #. >/Applications/&lt;App&gt;.app/Contents/Resources/app.asar</code >
 #. {ph3}: <em>
 #. {ph4}: </em>
-#: website/public/get-started/index.html:1596
+#: website/public/get-started/index.html:1630
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3596,21 +3596,21 @@ msgstr ""
 #. {ph0}: <strong>
 #. {ph1}: </strong>
 #. {ph2}: <code>/opt/&lt;App&gt;/resources/app.asar</code>
-#: website/public/get-started/index.html:1604
+#: website/public/get-started/index.html:1638
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux:{ph1} often {ph2}"
 msgstr "{ph0} Linux :{ph1} thường xuyên {ph2}"
 
 #. {ph0}: <code>app.asar</code>
-#: website/public/get-started/index.html:1609
+#: website/public/get-started/index.html:1643
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "Some apps install elsewhere. Search the app's folder for {ph0}."
 msgstr ""
 "Một số ứng dụng cài đặt ở nơi khác. Tìm kiếm thư mục của ứng dụng cho {ph0}."
 
-#: website/public/get-started/index.html:1614
+#: website/public/get-started/index.html:1648
 msgctxt "page:get-started/index.html"
 msgid ""
 "The result identifies the app, shows connections between modules and gives "
@@ -3622,36 +3622,36 @@ msgstr ""
 "kết quả."
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:1619
+#: website/public/get-started/index.html:1653
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "If you'd like a permanent {ph0} command in your shell:"
 msgstr "Nếu bạn muốn một vĩnh viễn {ph0} lệnh trong shell của bạn:"
 
-#: website/public/get-started/index.html:1625
+#: website/public/get-started/index.html:1659
 msgctxt "page:get-started/index.html"
 msgid "Install the CLI"
 msgstr "Cài ĐẶT CLI"
 
 #. {ph0}: <a href="../guides/javascript/" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1637
+#: website/public/get-started/index.html:1671
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Continue with the JavaScript application guide{ph1}"
 msgstr "{ph0}Tiếp tục VỚI hướng dẫn ứng DỤNG JavaScript{ph1}"
 
-#: website/public/get-started/index.html:1154
+#: website/public/get-started/index.html:1187
 msgctxt "page:get-started/index.html"
 msgid "Connect your Ghidra installation"
 msgstr "Kết nối CÀI ĐẶT Ghidra của bạn"
 
-#: website/public/get-started/index.html:1124
+#: website/public/get-started/index.html:1157
 msgctxt "page:get-started/index.html"
 msgid "Connect Ghidra on Windows"
 msgstr "Kết NỐI Ghidra TRÊN Windows"
 
-#: website/public/get-started/index.html:1125
+#: website/public/get-started/index.html:1158
 msgctxt "page:get-started/index.html"
 msgid ""
 "Windows x64 has experimental, read-only support for native x86 and x64 PE "
@@ -3662,7 +3662,7 @@ msgstr ""
 " pe gốc trên các ổ đĩa ntfs cục bộ cố định. Sử DỤNG Ghidra 12.1 hiện có.x "
 "cài đặt VÀ 64-bit JDK 21 hoặc mới hơn:"
 
-#: website/public/get-started/index.html:1148
+#: website/public/get-started/index.html:1181
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace the two paths with your installations, then review setup's plan."
@@ -3670,7 +3670,7 @@ msgstr ""
 "Thay thế hai đường dẫn bằng cài đặt của bạn, sau đó xem lại kế hoạch thiết "
 "lập."
 
-#: website/public/get-started/index.html:1030
+#: website/public/get-started/index.html:1063
 msgctxt "page:get-started/index.html"
 msgid ""
 "Connect Hopper on macOS or Linux. Run the setup command above; it detects an"
@@ -3679,18 +3679,18 @@ msgstr ""
 "Kết nối Hopper TRÊN macOS hoặc Linux . Chạy lệnh thiết lập ở trên; nó phát "
 "hiện cài đặt hiện có hoặc cung cấp kế hoạch cài đặt để bạn phê duyệt."
 
-#: website/public/get-started/index.html:1691
+#: website/public/get-started/index.html:1725
 msgctxt "page:get-started/index.html"
 msgid "Getting help"
 msgstr "Nhận trợ giúp"
 
-#: website/public/get-started/index.html:1693
+#: website/public/get-started/index.html:1727
 msgctxt "page:get-started/index.html"
 msgid "If your agent doesn't see REA"
 msgstr "Nếu agent của bạn không THẤY REA"
 
 #. {ph0}: <code>doctor</code>
-#: website/public/get-started/index.html:1694
+#: website/public/get-started/index.html:1728
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3700,22 +3700,22 @@ msgstr ""
 "Khởi động lại hoặc kết nối lại máy khách sau khi thiết lập. Kiểm tra KẾT nối"
 " REA của NÓ với {ph0}; CHO Codex :"
 
-#: website/public/get-started/index.html:1705
+#: website/public/get-started/index.html:1739
 msgctxt "page:get-started/index.html"
 msgid "If a provider needs attention"
 msgstr "Nếu một nhà cung cấp cần chú ý"
 
-#: website/public/get-started/index.html:1706
+#: website/public/get-started/index.html:1740
 msgctxt "page:get-started/index.html"
 msgid "Check the provider you're using. For Ghidra:"
 msgstr "Kiểm tra nhà cung cấp bạn đang sử dụng. CHO Ghidra :"
 
-#: website/public/get-started/index.html:1709
+#: website/public/get-started/index.html:1743
 msgctxt "page:get-started/index.html"
 msgid "Check one provider"
 msgstr "Kiểm tra một nhà cung cấp"
 
-#: website/public/get-started/index.html:1721
+#: website/public/get-started/index.html:1755
 msgctxt "page:get-started/index.html"
 msgid "The report gives the failed check and a suggested next step."
 msgstr "Báo cáo đưa ra kiểm tra thất bại và một bước tiếp theo được đề xuất."
@@ -3724,7 +3724,7 @@ msgstr "Báo cáo đưa ra kiểm tra thất bại và một bước tiếp theo
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1786
+#: website/public/get-started/index.html:1820
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3737,7 +3737,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span >
 #. {ph3}: </span >
-#: website/public/get-started/index.html:1790
+#: website/public/get-started/index.html:1824
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3751,7 +3751,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1797
+#: website/public/get-started/index.html:1831
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3764,7 +3764,7 @@ msgstr ""
 #. {ph1}: </a >
 #. {ph2}: <span>
 #. {ph3}: </span>
-#: website/public/get-started/index.html:1801
+#: website/public/get-started/index.html:1835
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -3825,27 +3825,27 @@ msgctxt "page:get-started/index.html"
 msgid "REA getting started guide"
 msgstr "REA bắt đầu hướng dẫn"
 
-#: website/public/get-started/index.html:776
+#: website/public/get-started/index.html:809
 msgctxt "page:get-started/index.html"
 msgid "Copy REA installation prompt"
 msgstr "Sao CHÉP lời nhắc cài ĐẶT REA"
 
-#: website/public/get-started/index.html:1567
+#: website/public/get-started/index.html:1601
 msgctxt "page:get-started/index.html"
 msgid "Copy JavaScript analysis command"
 msgstr "Sao CHÉP lệnh PHÂN tích JavaScript"
 
-#: website/public/get-started/index.html:1626
+#: website/public/get-started/index.html:1660
 msgctxt "page:get-started/index.html"
 msgid "Copy CLI installation command"
 msgstr "Sao CHÉP lệnh cài ĐẶT CLI"
 
-#: website/public/get-started/index.html:1710
+#: website/public/get-started/index.html:1744
 msgctxt "page:get-started/index.html"
 msgid "Copy provider diagnosis command"
 msgstr "Sao chép lệnh chẩn đoán nhà cung cấp"
 
-#: website/public/get-started/index.html:1826
+#: website/public/get-started/index.html:1860
 msgctxt "page:get-started/index.html"
 msgid "Back to top"
 msgstr "Về đầu trang"
@@ -10821,7 +10821,7 @@ msgstr "Hướng dẫn"
 #: website/public/examples/dino-lab/index.html:476
 #: website/public/faq/index.html:574
 #: website/public/first-investigation/index.html:535
-#: website/public/get-started/index.html:1818
+#: website/public/get-started/index.html:1852
 #: website/public/guides/browser/index.html:508
 #: website/public/guides/index.html:302
 #: website/public/guides/javascript/index.html:504
@@ -10844,7 +10844,7 @@ msgstr "Mã nguồn"
 #: website/public/examples/dino-lab/index.html:477
 #: website/public/faq/index.html:575
 #: website/public/first-investigation/index.html:536
-#: website/public/get-started/index.html:1819
+#: website/public/get-started/index.html:1853
 #: website/public/guides/browser/index.html:509
 #: website/public/guides/index.html:303
 #: website/public/guides/javascript/index.html:505
@@ -10867,7 +10867,7 @@ msgstr "Giấy phép MIT"
 #: website/public/examples/dino-lab/index.html:478
 #: website/public/faq/index.html:576
 #: website/public/first-investigation/index.html:537
-#: website/public/get-started/index.html:1820
+#: website/public/get-started/index.html:1854
 #: website/public/guides/browser/index.html:510
 #: website/public/guides/index.html:304
 #: website/public/guides/javascript/index.html:506
@@ -10890,7 +10890,7 @@ msgstr "Tham gia cộng đồng"
 #: website/public/examples/dino-lab/index.html:479
 #: website/public/faq/index.html:577
 #: website/public/first-investigation/index.html:538
-#: website/public/get-started/index.html:1821
+#: website/public/get-started/index.html:1855
 #: website/public/guides/browser/index.html:511
 #: website/public/guides/index.html:305
 #: website/public/guides/javascript/index.html:507
@@ -11412,7 +11412,7 @@ msgstr ""
 #. {ph4}: </span >
 #. {ph5}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph6}: </span>
-#: website/public/get-started/index.html:785
+#: website/public/get-started/index.html:818
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13461,17 +13461,6 @@ msgctxt "page:get-started/index.html"
 msgid "All supported clients and setup IDs"
 msgstr "Tất cả ứng dụng được hỗ trợ và ID thiết lập"
 
-#. {ph0}: <code>--client</code>
-#: website/public/get-started/index.html:635
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
-" choosing a client explicitly."
-msgstr ""
-"Bản phát hành npm 6.4.0 hỗ trợ các ứng dụng dưới đây. Dùng ID cùng với {ph0}"
-" khi muốn chỉ định ứng dụng."
-
 #: website/public/get-started/index.html:643
 msgctxt "page:get-started/index.html"
 msgid "Client"
@@ -13482,23 +13471,6 @@ msgctxt "page:get-started/index.html"
 msgid "Setup ID"
 msgstr "ID thiết lập"
 
-#. {ph0}: <code>qoder</code>
-#. {ph1}: <code>droid</code>
-#. {ph2}: <code>trae</code>
-#. {ph3}: <code>zcode</code>
-#. {ph4}: <code>dsh</code>
-#: website/public/get-started/index.html:719
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
-"DeepSeek Harness ({ph4}) are available on repository main; use a source "
-"build or a release containing those integrations."
-msgstr ""
-"Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) và "
-"DeepSeek Harness ({ph4}) có trên nhánh main của kho mã nguồn; hãy dùng bản "
-"dựng từ mã nguồn hoặc bản phát hành có các tích hợp này."
-
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md" >
 #. {ph1}: </a >
@@ -13506,7 +13478,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#released-
 #. package-and-main" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:726
+#: website/public/get-started/index.html:759
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13516,13 +13488,13 @@ msgstr ""
 "{ph0}Cấu hình ứng dụng và xử lý sự cố{ph1} · {ph2}Tích hợp có trong các bản "
 "phát hành{ph3}"
 
-#: website/public/get-started/index.html:738
+#: website/public/get-started/index.html:771
 msgctxt "page:get-started/index.html"
 msgid "Grok Bot · connect on its hosted computer"
 msgstr "Grok Bot · kết nối trên máy tính chạy Bot"
 
 #. {ph0}: <code>rea</code>
-#: website/public/get-started/index.html:739
+#: website/public/get-started/index.html:772
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13535,29 +13507,29 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/client-
 #. configuration.md#other-client-settings" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:757
+#: website/public/get-started/index.html:790
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Grok Bot connector instructions{ph1}"
 msgstr "{ph0}Hướng dẫn kết nối Grok Bot{ph1}"
 
-#: website/public/get-started/index.html:767
+#: website/public/get-started/index.html:800
 msgctxt "page:get-started/index.html"
 msgid "3. Connect REA"
 msgstr "3. Kết nối REA"
 
-#: website/public/get-started/index.html:768
+#: website/public/get-started/index.html:801
 msgctxt "page:get-started/index.html"
 msgid "Copy this into your coding agent:"
 msgstr "Dán lời nhắc này vào trợ lý lập trình AI của bạn:"
 
-#: website/public/get-started/index.html:812
+#: website/public/get-started/index.html:845
 msgctxt "page:get-started/index.html"
 msgid "For one specific client, add its setup ID:"
 msgstr "Để chọn một ứng dụng cụ thể, thêm ID thiết lập của ứng dụng đó:"
 
 #. {ph0}: <code>y</code>
-#: website/public/get-started/index.html:827
+#: website/public/get-started/index.html:860
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13569,7 +13541,7 @@ msgstr ""
 " ứng dụng của REA, dùng phím mũi tên để di chuyển, Space để chọn ứng dụng và"
 " Enter để tiếp tục."
 
-#: website/public/get-started/index.html:838
+#: website/public/get-started/index.html:871
 msgctxt "page:get-started/index.html"
 msgid ""
 "MCP is the connection that lets your agent call REA. The skill gives it a "
@@ -13578,7 +13550,7 @@ msgstr ""
 "MCP là kết nối cho phép trợ lý AI gọi REA. Skill hướng dẫn trợ lý quy trình "
 "điều tra phần mềm."
 
-#: website/public/get-started/index.html:842
+#: website/public/get-started/index.html:875
 msgctxt "page:get-started/index.html"
 msgid ""
 "For the first exercise, you can skip the optional Hopper installation. "
@@ -13589,7 +13561,7 @@ msgstr ""
 
 #. {ph0}: <code>codex</code>
 #. {ph1}: <code>"healthy": true</code>
-#: website/public/get-started/index.html:875
+#: website/public/get-started/index.html:908
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13599,21 +13571,21 @@ msgstr ""
 "Thay {ph0} bằng ID thiết lập của ứng dụng bạn dùng. Kiểm tra thành công sẽ "
 "báo {ph1}. Sau đó, yêu cầu trợ lý AI:"
 
-#: website/public/get-started/index.html:881
+#: website/public/get-started/index.html:914
 msgctxt "page:get-started/index.html"
 msgid "Check that REA is connected and show me which REA tools you can use."
 msgstr ""
 "Kiểm tra xem REA đã kết nối chưa và cho tôi biết bạn có thể dùng những công "
 "cụ REA nào."
 
-#: website/public/get-started/index.html:888
+#: website/public/get-started/index.html:921
 msgctxt "page:get-started/index.html"
 msgid "4. Try your first investigation"
 msgstr "4. Thử cuộc điều tra đầu tiên"
 
 #. {ph0}: <strong>
 #. {ph1}: </strong>
-#: website/public/get-started/index.html:889
+#: website/public/get-started/index.html:922
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13625,7 +13597,7 @@ msgstr ""
 "Agent của bạn có thể kiểm tra mã của nó mà không cần cài đặt hoặc khởi CHẠY "
 "Electron ."
 
-#: website/public/get-started/index.html:896
+#: website/public/get-started/index.html:929
 msgctxt "page:get-started/index.html"
 msgid "Your coding agent"
 msgstr "Trợ lý AI lập trình của bạn"
@@ -13639,7 +13611,7 @@ msgstr "Trợ lý AI lập trình của bạn"
 #. {ph5}: </span >
 #. {ph6}: <span class="terminal-cursor" aria-hidden="true">
 #. {ph7}: </span>
-#: website/public/get-started/index.html:906
+#: website/public/get-started/index.html:939
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13653,7 +13625,7 @@ msgstr ""
 "đâu {ph4} được viết, trường nào chứa và các tệp và dòng có liên "
 "quan.{ph5}{ph6}{ph7}"
 
-#: website/public/get-started/index.html:920
+#: website/public/get-started/index.html:953
 msgctxt "page:get-started/index.html"
 msgid "Look for a short explanation with file and line references:"
 msgstr "Tìm kiếm một lời giải thích ngắn với các tham chiếu tệp và dòng:"
@@ -13662,7 +13634,7 @@ msgstr "Tìm kiếm một lời giải thích ngắn với các tham chiếu t�
 #. {ph1}: <code>notes.csv</code>
 #. {ph2}: <code>id</code>
 #. {ph3}: <code>title</code>
-#: website/public/get-started/index.html:922
+#: website/public/get-started/index.html:955
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13676,13 +13648,13 @@ msgstr ""
 
 #. {ph0}: <a href="../first-investigation/#check" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:929
+#: website/public/get-started/index.html:962
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Check a prediction in the guided exercise →{ph1}"
 msgstr "{ph0}Kiểm chứng một dự đoán trong bài thực hành có hướng dẫn →{ph1}"
 
-#: website/public/get-started/index.html:935
+#: website/public/get-started/index.html:968
 msgctxt "page:get-started/index.html"
 msgid "Download the example yourself, or use your own app"
 msgstr "Tự tải ví dụ hoặc dùng ứng dụng của bạn"
@@ -13690,14 +13662,14 @@ msgstr "Tự tải ví dụ hoặc dùng ứng dụng của bạn"
 #. {ph0}: <a class="button" href="../examples/notes-example.zip"
 #. download="notes-example.zip" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:938
+#: website/public/get-started/index.html:971
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download example ZIP{ph1}"
 msgstr "{ph0}Tải xuống VÍ DỤ ZIP{ph1}"
 
 #. {ph0}: <code>notes-example</code>
-#: website/public/get-started/index.html:946
+#: website/public/get-started/index.html:979
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13708,7 +13680,7 @@ msgstr ""
 "Cung cấp cho nó con đường đến {ph0} thư mục và cùng một câu hỏi xuất."
 
 #. {ph0}: <code>/absolute/path/to/app</code>
-#: website/public/get-started/index.html:952
+#: website/public/get-started/index.html:985
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13718,12 +13690,12 @@ msgstr ""
 "Dùng REA để kiểm tra ứng dụng tại {ph0}. Tìm cách ứng dụng xuất dữ liệu và "
 "chỉ ra các tệp, dòng mã liên quan."
 
-#: website/public/get-started/index.html:982
+#: website/public/get-started/index.html:1015
 msgctxt "page:get-started/index.html"
 msgid "Analyze another kind of software"
 msgstr "Phân tích loại phần mềm khác"
 
-#: website/public/get-started/index.html:983
+#: website/public/get-started/index.html:1016
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose the section for your target. A provider is the local analysis tool "
@@ -13732,12 +13704,12 @@ msgstr ""
 "Chọn phần phù hợp với đối tượng cần phân tích. Provider là công cụ phân tích"
 " cục bộ mà REA dùng cho loại phần mềm đó."
 
-#: website/public/get-started/index.html:988
+#: website/public/get-started/index.html:1021
 msgctxt "page:get-started/index.html"
 msgid "Native executables and libraries · Hopper, Ghidra or IDA"
 msgstr "Tệp thực thi và thư viện mã máy · Hopper, Ghidra hoặc IDA"
 
-#: website/public/get-started/index.html:991
+#: website/public/get-started/index.html:1024
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install one analysis tool on the computer running REA. The host is your "
@@ -13746,47 +13718,47 @@ msgstr ""
 "Cài một công cụ phân tích trên máy tính chạy REA. Host là hệ điều hành bạn "
 "đang dùng; target là chương trình bạn muốn kiểm tra."
 
-#: website/public/get-started/index.html:1000
+#: website/public/get-started/index.html:1033
 msgctxt "page:get-started/index.html"
 msgid "Provider"
 msgstr "Công cụ phân tích"
 
-#: website/public/get-started/index.html:1009
+#: website/public/get-started/index.html:1042
 msgctxt "page:get-started/index.html"
 msgid "Unavailable"
 msgstr "Không khả dụng"
 
-#: website/public/get-started/index.html:1011
+#: website/public/get-started/index.html:1044
 msgctxt "page:get-started/index.html"
 msgid "Supported distributions"
 msgstr "Các bản phân phối được hỗ trợ"
 
-#: website/public/get-started/index.html:1015
+#: website/public/get-started/index.html:1048
 msgctxt "page:get-started/index.html"
 msgid "x64 · experimental"
 msgstr "x64 · thử nghiệm"
 
-#: website/public/get-started/index.html:1021
+#: website/public/get-started/index.html:1054
 msgctxt "page:get-started/index.html"
 msgid "Verified profiles"
 msgstr "Các cấu hình đã kiểm chứng"
 
-#: website/public/get-started/index.html:1022
+#: website/public/get-started/index.html:1055
 msgctxt "page:get-started/index.html"
 msgid "Verified headless profile"
 msgstr "Cấu hình không có giao diện đã kiểm chứng"
 
-#: website/public/get-started/index.html:1023
+#: website/public/get-started/index.html:1056
 msgctxt "page:get-started/index.html"
 msgid "See provider guide"
 msgstr "Xem hướng dẫn công cụ phân tích"
 
-#: website/public/get-started/index.html:1029
+#: website/public/get-started/index.html:1062
 msgctxt "page:get-started/index.html"
 msgid "Hopper · let setup install or connect it"
 msgstr "Hopper · để trình thiết lập cài đặt hoặc kết nối"
 
-#: website/public/get-started/index.html:1035
+#: website/public/get-started/index.html:1068
 msgctxt "page:get-started/index.html"
 msgid ""
 "Choose Hopper in setup and review its separate installation plan. On macOS, "
@@ -13798,7 +13770,7 @@ msgstr ""
 " Trên Linux, trình thiết lập chuẩn bị bản demo được hỗ trợ cùng màn hình "
 "riêng của nó."
 
-#: website/public/get-started/index.html:1041
+#: website/public/get-started/index.html:1074
 msgctxt "page:get-started/index.html"
 msgid ""
 "Linux hosts: Ubuntu 24.04+, Fedora 41+, Nobara 44+, Arch Linux, CachyOS or "
@@ -13808,7 +13780,7 @@ msgstr ""
 "Omarchy. Hopper là phần mềm thương mại; bản demo có các giới hạn do nhà cung"
 " cấp quy định."
 
-#: website/public/get-started/index.html:1060
+#: website/public/get-started/index.html:1093
 msgctxt "page:get-started/index.html"
 msgid ""
 "If macOS asks for Automation permission, allow the app that starts REA in "
@@ -13821,18 +13793,18 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#hopper"
 #. >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1065
+#: website/public/get-started/index.html:1098
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Hopper setup and troubleshooting{ph1}"
 msgstr "{ph0}Thiết lập Hopper và xử lý sự cố{ph1}"
 
-#: website/public/get-started/index.html:1073
+#: website/public/get-started/index.html:1106
 msgctxt "page:get-started/index.html"
 msgid "Ghidra · install the free analysis tool and Java"
 msgstr "Ghidra · cài công cụ phân tích miễn phí và Java"
 
-#: website/public/get-started/index.html:1077
+#: website/public/get-started/index.html:1110
 msgctxt "page:get-started/index.html"
 msgid ""
 "Install a 64-bit JDK 21 or newer, including the Java compiler. Choose the "
@@ -13842,7 +13814,7 @@ msgstr ""
 "với kiến trúc máy tính của bạn."
 
 #. {ph0}: <code>ghidra_…_PUBLIC_….zip</code>
-#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1115
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13855,7 +13827,7 @@ msgstr ""
 #. {ph0}: <code>ghidraRun</code>
 #. {ph1}: <code>ghidraRun.bat</code>
 #. {ph2}: <code>GHIDRA_INSTALL_DIR</code>
-#: website/public/get-started/index.html:1087
+#: website/public/get-started/index.html:1120
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13870,7 +13842,7 @@ msgstr ""
 #. href="https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build"
 #. >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1093
+#: website/public/get-started/index.html:1126
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Download a JDK{ph1} · {ph2}Download Ghidra 12.1.4{ph3}"
@@ -13878,7 +13850,7 @@ msgstr "{ph0}Tải JDK{ph1} · {ph2}Tải Ghidra 12.1.4{ph3}"
 
 #. {ph0}: <code>java.home</code>
 #. {ph1}: <code>JAVA_HOME</code>
-#: website/public/get-started/index.html:1103
+#: website/public/get-started/index.html:1136
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13888,7 +13860,7 @@ msgstr ""
 "Kiểm tra Java. Lệnh đầu hiển thị {ph0}; dùng thư mục đó cho {ph1}. Lệnh thứ "
 "hai xác nhận đã cài trình biên dịch:"
 
-#: website/public/get-started/index.html:1219
+#: website/public/get-started/index.html:1252
 msgctxt "page:get-started/index.html"
 msgid ""
 "Keep these commands in the same terminal session. Rerun setup after setting "
@@ -13906,7 +13878,7 @@ msgstr ""
 #. {ph2}: <a href="https://github.com/morluto/rea/blob/main/docs/windows-
 #. ghidra-p0.md" >
 #. {ph3}: </a >
-#: website/public/get-started/index.html:1224
+#: website/public/get-started/index.html:1257
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -13916,12 +13888,12 @@ msgstr ""
 "{ph0}Thiết lập Ghidra và yêu cầu kiến trúc{ph1} · {ph2}Hướng dẫn Ghidra trên"
 " Windows{ph3}"
 
-#: website/public/get-started/index.html:1237
+#: website/public/get-started/index.html:1270
 msgctxt "page:get-started/index.html"
 msgid "IDA · connect an existing installation"
 msgstr "IDA · kết nối bản cài đặt sẵn có"
 
-#: website/public/get-started/index.html:1238
+#: website/public/get-started/index.html:1271
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the IDA provider guide to prepare an upstream MCP registration. Choose "
@@ -13932,7 +13904,7 @@ msgstr ""
 "IDA. Chọn kết nối với GUI đang mở tệp nhị phân gốc, hoặc dùng tiến trình "
 "giám sát không có giao diện để mở cơ sở dữ liệu riêng."
 
-#: website/public/get-started/index.html:1243
+#: website/public/get-started/index.html:1276
 msgctxt "page:get-started/index.html"
 msgid ""
 "Verified profiles include the Windows legacy GUI and headless supervisor, "
@@ -13944,7 +13916,7 @@ msgstr ""
 "arm64 với IDA Professional 9.1. Cầu nối GUI native tùy chọn có yêu cầu riêng"
 " về phiên bản và nền tảng."
 
-#: website/public/get-started/index.html:1338
+#: website/public/get-started/index.html:1372
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the JSON registration file you prepared with the provider guide, then "
@@ -13956,13 +13928,13 @@ msgstr ""
 #. {ph0}: <a href="https://github.com/morluto/rea/blob/main/docs/ida-
 #. provider.md" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1342
+#: website/public/get-started/index.html:1376
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}IDA profiles, registration examples and verified platforms{ph1}"
 msgstr "{ph0}Cấu hình IDA, ví dụ đăng ký và nền tảng đã kiểm chứng{ph1}"
 
-#: website/public/get-started/index.html:1350
+#: website/public/get-started/index.html:1384
 msgctxt "page:get-started/index.html"
 msgid ""
 "Once connected, give your agent the original executable's full path and name"
@@ -13973,18 +13945,18 @@ msgstr ""
 
 #. {ph0}: <a href="../guides/native/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1362
+#: website/public/get-started/index.html:1396
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Follow a native analysis example{ph1}"
 msgstr "{ph0}Làm theo ví dụ phân tích mã máy{ph1}"
 
-#: website/public/get-started/index.html:1367
+#: website/public/get-started/index.html:1401
 msgctxt "page:get-started/index.html"
 msgid "Websites, Android, .NET, firmware and other targets"
 msgstr "Website, Android, .NET, firmware và các đối tượng khác"
 
-#: website/public/get-started/index.html:1370
+#: website/public/get-started/index.html:1404
 msgctxt "page:get-started/index.html"
 msgid ""
 "Open the guide for the target you have. Each guide gives the additional "
@@ -13993,110 +13965,110 @@ msgstr ""
 "Mở hướng dẫn cho đối tượng bạn có. Mỗi hướng dẫn nêu công cụ bổ sung, host "
 "được hỗ trợ và lệnh đầu tiên."
 
-#: website/public/get-started/index.html:1378
+#: website/public/get-started/index.html:1412
 msgctxt "page:get-started/index.html"
 msgid "Target"
 msgstr "Đối tượng"
 
-#: website/public/get-started/index.html:1379
+#: website/public/get-started/index.html:1413
 msgctxt "page:get-started/index.html"
 msgid "Tools to prepare"
 msgstr "Công cụ cần chuẩn bị"
 
-#: website/public/get-started/index.html:1380
+#: website/public/get-started/index.html:1414
 msgctxt "page:get-started/index.html"
 msgid "Guide"
 msgstr "Hướng dẫn"
 
-#: website/public/get-started/index.html:1385
+#: website/public/get-started/index.html:1419
 msgctxt "page:get-started/index.html"
 msgid "JavaScript / Electron"
 msgstr "JavaScript / Electron"
 
 #. {ph0}: <a href="../guides/javascript/">
 #. {ph1}: </a>
-#: website/public/get-started/index.html:1387
-#: website/public/get-started/index.html:1392
-#: website/public/get-started/index.html:1397
-#: website/public/get-started/index.html:1407
-#: website/public/get-started/index.html:1417
-#: website/public/get-started/index.html:1427
-#: website/public/get-started/index.html:1437
-#: website/public/get-started/index.html:1447
-#: website/public/get-started/index.html:1457
-#: website/public/get-started/index.html:1467
-#: website/public/get-started/index.html:1477
-#: website/public/get-started/index.html:1487
-#: website/public/get-started/index.html:1497
-#: website/public/get-started/index.html:1507
-#: website/public/get-started/index.html:1517
-#: website/public/get-started/index.html:1527
+#: website/public/get-started/index.html:1421
+#: website/public/get-started/index.html:1426
+#: website/public/get-started/index.html:1431
+#: website/public/get-started/index.html:1441
+#: website/public/get-started/index.html:1451
+#: website/public/get-started/index.html:1461
+#: website/public/get-started/index.html:1471
+#: website/public/get-started/index.html:1481
+#: website/public/get-started/index.html:1491
+#: website/public/get-started/index.html:1501
+#: website/public/get-started/index.html:1511
+#: website/public/get-started/index.html:1521
+#: website/public/get-started/index.html:1531
+#: website/public/get-started/index.html:1541
+#: website/public/get-started/index.html:1551
+#: website/public/get-started/index.html:1561
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Open guide{ph1}"
 msgstr "{ph0}Mở hướng dẫn{ph1}"
 
-#: website/public/get-started/index.html:1390
+#: website/public/get-started/index.html:1424
 msgctxt "page:get-started/index.html"
 msgid "Website"
 msgstr "Website"
 
-#: website/public/get-started/index.html:1395
+#: website/public/get-started/index.html:1429
 msgctxt "page:get-started/index.html"
 msgid ".NET / Flutter / packages"
 msgstr ".NET / Flutter / gói phần mềm"
 
-#: website/public/get-started/index.html:1405
+#: website/public/get-started/index.html:1439
 msgctxt "page:get-started/index.html"
 msgid "Android APK"
 msgstr "Android APK"
 
-#: website/public/get-started/index.html:1415
+#: website/public/get-started/index.html:1449
 msgctxt "page:get-started/index.html"
 msgid "Android device"
 msgstr "Thiết bị Android"
 
-#: website/public/get-started/index.html:1425
+#: website/public/get-started/index.html:1459
 msgctxt "page:get-started/index.html"
 msgid "Android resources"
 msgstr "Tài nguyên Android"
 
-#: website/public/get-started/index.html:1435
+#: website/public/get-started/index.html:1469
 msgctxt "page:get-started/index.html"
 msgid "JEB project"
 msgstr "Dự án JEB"
 
-#: website/public/get-started/index.html:1445
+#: website/public/get-started/index.html:1479
 msgctxt "page:get-started/index.html"
 msgid "Firmware"
 msgstr "Firmware"
 
-#: website/public/get-started/index.html:1455
+#: website/public/get-started/index.html:1489
 msgctxt "page:get-started/index.html"
 msgid "WASM"
 msgstr "WASM"
 
-#: website/public/get-started/index.html:1485
+#: website/public/get-started/index.html:1519
 msgctxt "page:get-started/index.html"
 msgid "ELF / Linux crash"
 msgstr "ELF / sự cố Linux"
 
-#: website/public/get-started/index.html:1495
+#: website/public/get-started/index.html:1529
 msgctxt "page:get-started/index.html"
 msgid "HAR / SAZ / mitmproxy"
 msgstr "HAR / SAZ / mitmproxy"
 
-#: website/public/get-started/index.html:1505
+#: website/public/get-started/index.html:1539
 msgctxt "page:get-started/index.html"
 msgid "PCAP / PCAPNG"
 msgstr "PCAP / PCAPNG"
 
-#: website/public/get-started/index.html:1515
+#: website/public/get-started/index.html:1549
 msgctxt "page:get-started/index.html"
 msgid "Logic signals"
 msgstr "Tín hiệu logic"
 
-#: website/public/get-started/index.html:1525
+#: website/public/get-started/index.html:1559
 msgctxt "page:get-started/index.html"
 msgid "Process behavior"
 msgstr "Hành vi tiến trình"
@@ -14112,7 +14084,7 @@ msgstr "Hành vi tiến trình"
 #. {ph5}: </a >
 #. {ph6}: <a href="../guides/">
 #. {ph7}: </a>
-#: website/public/get-started/index.html:1537
+#: website/public/get-started/index.html:1571
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14122,18 +14094,18 @@ msgstr ""
 "{ph0}Hướng dẫn Flutter{ph1} · {ph2}Gói và tài nguyên{ph3} · {ph4}Bytecode "
 "EVM{ph5} · {ph6}Tất cả hướng dẫn điều tra{ph7}"
 
-#: website/public/get-started/index.html:1557
+#: website/public/get-started/index.html:1591
 msgctxt "page:get-started/index.html"
 msgid "Use REA from a terminal"
 msgstr "Dùng REA từ terminal"
 
-#: website/public/get-started/index.html:1559
+#: website/public/get-started/index.html:1593
 msgctxt "page:get-started/index.html"
 msgid "CLI commands, global installation and curl"
 msgstr "Lệnh CLI, cài đặt toàn cục và curl"
 
 #. {ph0}: <code>main</code>
-#: website/public/get-started/index.html:1656
+#: website/public/get-started/index.html:1690
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14143,7 +14115,7 @@ msgstr ""
 "Thay {ph0} bằng tên hàm hoặc địa chỉ trong danh sách hàm của đối tượng. Bạn "
 "phải cấu hình Ghidra trước."
 
-#: website/public/get-started/index.html:1660
+#: website/public/get-started/index.html:1694
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS or Linux, you can also use the curl installer after preparing "
@@ -14152,7 +14124,7 @@ msgstr ""
 "Trên macOS hoặc Linux, bạn cũng có thể dùng bộ cài qua curl sau khi chuẩn bị"
 " Node.js:"
 
-#: website/public/get-started/index.html:1698
+#: website/public/get-started/index.html:1732
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use the client check in step 3 with your setup ID. In editor clients, enable"
@@ -14162,12 +14134,12 @@ msgstr ""
 "trình soạn thảo, bật REA trong cài đặt MCP và cho phép dùng công cụ trong "
 "cuộc trò chuyện với trợ lý AI."
 
-#: website/public/get-started/index.html:1726
+#: website/public/get-started/index.html:1760
 msgctxt "page:get-started/index.html"
 msgid "Windows, WSL and paths with spaces"
 msgstr "Windows, WSL và đường dẫn có khoảng trắng"
 
-#: website/public/get-started/index.html:1727
+#: website/public/get-started/index.html:1761
 msgctxt "page:get-started/index.html"
 msgid ""
 "Use Windows PowerShell for Windows clients and analysis tools. If your agent"
@@ -14179,17 +14151,17 @@ msgstr ""
 "đó và dùng đường dẫn Linux. Các công cụ phân tích không có giao diện chạy "
 "trên cùng host với REA."
 
-#: website/public/get-started/index.html:1736
+#: website/public/get-started/index.html:1770
 msgctxt "page:get-started/index.html"
 msgid "Windows setup command:"
 msgstr "Lệnh thiết lập trên Windows:"
 
-#: website/public/get-started/index.html:1753
+#: website/public/get-started/index.html:1787
 msgctxt "page:get-started/index.html"
 msgid "Update or remove REA"
 msgstr "Cập nhật hoặc gỡ REA"
 
-#: website/public/get-started/index.html:1754
+#: website/public/get-started/index.html:1788
 msgctxt "page:get-started/index.html"
 msgid ""
 "To refresh your agent connection, run the latest setup command again, review"
@@ -14200,7 +14172,7 @@ msgstr ""
 
 #. {ph0}: <code>rea update</code>
 #. {ph1}: <code>npx rea-agents@latest uninstall</code>
-#: website/public/get-started/index.html:1772
+#: website/public/get-started/index.html:1806
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14214,7 +14186,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#diagnose-
 #. update-and-remove" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1778
+#: website/public/get-started/index.html:1812
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Update and uninstall details{ph1}"
@@ -14233,27 +14205,27 @@ msgstr "Sao chép lệnh thiết lập REA trên Windows"
 #: website/public/get-started/index.html:550
 #: website/public/get-started/index.html:582
 #: website/public/get-started/index.html:611
-#: website/public/get-started/index.html:746
-#: website/public/get-started/index.html:801
-#: website/public/get-started/index.html:816
-#: website/public/get-started/index.html:864
-#: website/public/get-started/index.html:1049
-#: website/public/get-started/index.html:1111
-#: website/public/get-started/index.html:1134
-#: website/public/get-started/index.html:1158
-#: website/public/get-started/index.html:1206
-#: website/public/get-started/index.html:1281
-#: website/public/get-started/index.html:1307
-#: website/public/get-started/index.html:1324
-#: website/public/get-started/index.html:1645
-#: website/public/get-started/index.html:1667
-#: website/public/get-started/index.html:1740
-#: website/public/get-started/index.html:1761
+#: website/public/get-started/index.html:779
+#: website/public/get-started/index.html:834
+#: website/public/get-started/index.html:849
+#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:1082
+#: website/public/get-started/index.html:1144
+#: website/public/get-started/index.html:1167
+#: website/public/get-started/index.html:1191
+#: website/public/get-started/index.html:1239
+#: website/public/get-started/index.html:1315
+#: website/public/get-started/index.html:1341
+#: website/public/get-started/index.html:1358
+#: website/public/get-started/index.html:1679
+#: website/public/get-started/index.html:1701
+#: website/public/get-started/index.html:1774
+#: website/public/get-started/index.html:1795
 msgctxt "page:get-started/index.html"
 msgid "Copy command"
 msgstr "Sao chép lệnh"
 
-#: website/public/get-started/index.html:897
+#: website/public/get-started/index.html:930
 msgctxt "page:get-started/index.html"
 msgid "Copy Notes investigation prompt"
 msgstr "Sao Chép Ghi chú điều tra nhanh chóng"
@@ -14305,14 +14277,14 @@ msgctxt "page:get-started/index.html"
 msgid "OpenCode · choose an AI model"
 msgstr "OpenCode · chọn mô hình AI"
 
-#: website/public/get-started/index.html:1265
+#: website/public/get-started/index.html:1299
 msgctxt "page:get-started/index.html"
 msgid "Prepare the IDA registration file"
 msgstr "Chuẩn bị tệp đăng ký IDA"
 
 #. {ph0}: <code>ida-mcp.json</code>
 #. {ph1}: <code>.txt</code>
-#: website/public/get-started/index.html:1266
+#: website/public/get-started/index.html:1300
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14327,7 +14299,7 @@ msgstr ""
 #. {ph0}: <code>idb_open</code>
 #. {ph1}: <code>idb_list</code>
 #. {ph2}: <code>idb_close</code>
-#: website/public/get-started/index.html:1273
+#: website/public/get-started/index.html:1307
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14340,7 +14312,7 @@ msgstr ""
 #. {ph0}: <code>command</code>
 #. {ph1}: <code>args</code>
 #. {ph2}: <code>env</code>
-#: website/public/get-started/index.html:1296
+#: website/public/get-started/index.html:1330
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14352,12 +14324,12 @@ msgstr ""
 "động và {ph2} nếu có vào tệp. Mở tệp nhị phân gốc trong IDA và khởi chạy "
 "plugin phía IDA trước khi yêu cầu REA kiểm tra."
 
-#: website/public/get-started/index.html:1465
+#: website/public/get-started/index.html:1499
 msgctxt "page:get-started/index.html"
 msgid "SQLite database"
 msgstr "Cơ sở dữ liệu SQLite"
 
-#: website/public/get-started/index.html:1475
+#: website/public/get-started/index.html:1509
 msgctxt "page:get-started/index.html"
 msgid "EVM bytecode"
 msgstr "Bytecode EVM"
@@ -14414,7 +14386,7 @@ msgstr ""
 "Xem và chấp thuận kế hoạch, mở lại Claude rồi {ph0}kiểm tra kết nối ở bước "
 "3{ph1}."
 
-#: website/public/get-started/index.html:1170
+#: website/public/get-started/index.html:1203
 msgctxt "page:get-started/index.html"
 msgid ""
 "Replace both paths with your existing installations. For a fresh macOS or "
@@ -14425,12 +14397,12 @@ msgstr ""
 "macOS hoặc Linux arm64, hãy biên dịch bộ dịch ngược native cho máy tính của "
 "bạn trước khi tiếp tục."
 
-#: website/public/get-started/index.html:1176
+#: website/public/get-started/index.html:1209
 msgctxt "page:get-started/index.html"
 msgid "Build Ghidra's native decompiler"
 msgstr "Biên dịch bộ dịch ngược native của Ghidra"
 
-#: website/public/get-started/index.html:1177
+#: website/public/get-started/index.html:1210
 msgctxt "page:get-started/index.html"
 msgid ""
 "On macOS, the build needs Xcode Command Line Tools, make and bison. Use the "
@@ -14443,7 +14415,7 @@ msgstr ""
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#missing-
 #. macos-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1182
+#: website/public/get-started/index.html:1215
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Intel{ph1}"
@@ -14453,7 +14425,7 @@ msgstr "{ph0}macOS · Intel{ph1}"
 #. href="https://github.com/morluto/rea/blob/main/docs/installation.md#macos-
 #. arm64-native-decompiler" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1188
+#: website/public/get-started/index.html:1221
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}macOS · Apple Silicon{ph1}"
@@ -14463,13 +14435,13 @@ msgstr "{ph0}macOS · Apple Silicon{ph1}"
 #. href="https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_12.1.4_build/GhidraDocs/GettingStarted.md#building-
 #. native-components" >
 #. {ph1}: </a >
-#: website/public/get-started/index.html:1194
+#: website/public/get-started/index.html:1227
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid "{ph0}Linux arm64 · native build instructions{ph1}"
 msgstr "{ph0}Linux arm64 · hướng dẫn biên dịch native{ph1}"
 
-#: website/public/get-started/index.html:1202
+#: website/public/get-started/index.html:1235
 msgctxt "page:get-started/index.html"
 msgid "Then check Ghidra and save its paths for your client:"
 msgstr "Sau đó kiểm tra Ghidra và lưu đường dẫn cho ứng dụng kết nối của bạn:"
@@ -14865,7 +14837,7 @@ msgid "Other install options: {ph0}{ph1} →{ph2}"
 msgstr "Cách cài đặt khác: {ph0}{ph1} →{ph2}"
 
 #. {ph0}: <code>rea setup</code>
-#: website/public/get-started/index.html:1678
+#: website/public/get-started/index.html:1712
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14875,27 +14847,10 @@ msgstr ""
 "Làm theo hướng dẫn thiết lập để kết nối agent. Nếu không thấy hướng dẫn, "
 "chạy {ph0}."
 
-#. {ph0}: <a
-#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
-#. setup" >
-#. {ph1}: </a >
-#. {ph2}: <code>6.4.0</code>
-#: website/public/get-started/index.html:1249
-#, python-brace-format
-msgctxt "page:get-started/index.html"
-msgid ""
-"The macOS headless profile and native GUI bridge require a {ph0}REA source "
-"build{ph1} or a release containing those changes. npm {ph2} does not include"
-" them."
-msgstr ""
-"Cấu hình không giao diện trên macOS và cầu nối GUI gốc cần {ph0}bản REA được"
-" dựng từ mã nguồn{ph1} hoặc bản phát hành có các thay đổi này. Bản npm {ph2}"
-" chưa có chúng."
-
 #. {ph0}: <code>node scripts/rea.mjs doctor --provider ida --json</code>
 #. {ph1}: <code>node scripts/rea.mjs setup</code>
 #. {ph2}: <code>npx</code>
-#: website/public/get-started/index.html:1258
+#: website/public/get-started/index.html:1292
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14907,7 +14862,7 @@ msgstr ""
 
 #. {ph0}: <code>rea</code>
 #. {ph1}: <code>"$HOME/.local/bin/rea" setup</code>
-#: website/public/get-started/index.html:1682
+#: website/public/get-started/index.html:1716
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14918,7 +14873,7 @@ msgstr ""
 " đặt in ra. Trên Linux, lệnh thiết lập mặc định là {ph1}."
 
 #. {ph0}: <code>/absolute/path/to/program</code>
-#: website/public/get-started/index.html:1355
+#: website/public/get-started/index.html:1389
 #, python-brace-format
 msgctxt "page:get-started/index.html"
 msgid ""
@@ -14937,7 +14892,7 @@ msgstr ""
 #: website/public/examples/dino-lab/index.html:475
 #: website/public/faq/index.html:573
 #: website/public/first-investigation/index.html:534
-#: website/public/get-started/index.html:1817
+#: website/public/get-started/index.html:1851
 #: website/public/guides/browser/index.html:507
 #: website/public/guides/index.html:301
 #: website/public/guides/javascript/index.html:503
@@ -15801,6 +15756,80 @@ msgstr "REA-Kỹ Thuật Đảo ngược Cho Đại Lý Mã Hóa Của Bạn"
 msgctxt "page:index.html"
 msgid "See the full Calculator investigation"
 msgstr "Xem toàn bộ khảo sát Máy tính"
+
+#. {ph0}: <code>--client</code>
+#: website/public/get-started/index.html:635
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"The npm 6.8.0 release supports the clients below. Use the ID with {ph0} when"
+" choosing a client explicitly."
+msgstr ""
+
+#. {ph0}: <code>droid</code>
+#. {ph1}: <code>dsh</code>
+#. {ph2}: <code>kimi</code>
+#. {ph3}: <code>qoder</code>
+#. {ph4}: <code>trae</code>
+#. {ph5}: <code>workbuddy</code>
+#. {ph6}: <code>zcode</code>
+#. {ph7}: <code>rea-agents@6.5.0</code>
+#. {ph8}: <code>freebuff</code>
+#. {ph9}: <code>rea-agents@6.8.0</code>
+#: website/public/get-started/index.html:751
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"{ph0}, {ph1}, {ph2}, {ph3}, {ph4}, {ph5} and {ph6} require {ph7} or later; "
+"{ph8} requires {ph9} or later. Older releases reject them as unsupported "
+"clients."
+msgstr ""
+
+#. {ph0}: <code>rea-agents@6.5.0</code>
+#. {ph1}: <code>6.4.0</code>
+#. {ph2}: <a
+#. href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-
+#. setup" >
+#. {ph3}: </a >
+#: website/public/get-started/index.html:1282
+#, python-brace-format
+msgctxt "page:get-started/index.html"
+msgid ""
+"The macOS headless profile and native GUI bridge are included from {ph0}; "
+"npm {ph1} and earlier do not include them. A {ph2}REA source build{ph3} also"
+" works."
+msgstr ""
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "The npm 6.4.0 release supports the clients below. Use the ID with {ph0} when"
+#~ " choosing a client explicitly."
+#~ msgstr ""
+#~ "Bản phát hành npm 6.4.0 hỗ trợ các ứng dụng dưới đây. Dùng ID cùng với {ph0}"
+#~ " khi muốn chỉ định ứng dụng."
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) and "
+#~ "DeepSeek Harness ({ph4}) are available on repository main; use a source "
+#~ "build or a release containing those integrations."
+#~ msgstr ""
+#~ "Qoder ({ph0}), Factory Droid ({ph1}), Trae ({ph2}), ZCode ({ph3}) và "
+#~ "DeepSeek Harness ({ph4}) có trên nhánh main của kho mã nguồn; hãy dùng bản "
+#~ "dựng từ mã nguồn hoặc bản phát hành có các tích hợp này."
+
+#, python-brace-format
+#~ msgctxt "page:get-started/index.html"
+#~ msgid ""
+#~ "The macOS headless profile and native GUI bridge require a {ph0}REA source "
+#~ "build{ph1} or a release containing those changes. npm {ph2} does not include"
+#~ " them."
+#~ msgstr ""
+#~ "Cấu hình không giao diện trên macOS và cầu nối GUI gốc cần {ph0}bản REA được"
+#~ " dựng từ mã nguồn{ph1} hoặc bản phát hành có các thay đổi này. Bản npm {ph2}"
+#~ " chưa có chúng."
 
 #~ msgctxt "page:index.html"
 #~ msgid "Calculator: by hand and with an agent"

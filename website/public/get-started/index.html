@@ -633,7 +633,7 @@ cd rea-work</code></pre>
             <details class="evidence-details" id="supported-clients">
               <summary>All supported clients and setup IDs</summary>
               <p>
-                The npm 6.4.0 release supports the clients below. Use the ID
+                The npm 6.8.0 release supports the clients below. Use the ID
                 with <code>--client</code> when choosing a client explicitly.
               </p>
               <div class="evidence-table-wrap">
@@ -694,8 +694,20 @@ cd rea-work</code></pre>
                       <td><code>qwen_code</code></td>
                     </tr>
                     <tr>
+                      <td translate="no">Kimi Code</td>
+                      <td><code>kimi</code></td>
+                    </tr>
+                    <tr>
                       <td translate="no">VS Code</td>
                       <td><code>vscode</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">Trae</td>
+                      <td><code>trae</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">WorkBuddy</td>
+                      <td><code>workbuddy</code></td>
                     </tr>
                     <tr>
                       <td translate="no">Grok Build</td>
@@ -713,15 +725,36 @@ cd rea-work</code></pre>
                       <td translate="no">Hermes</td>
                       <td><code>hermes</code></td>
                     </tr>
+                    <tr>
+                      <td translate="no">Qoder</td>
+                      <td><code>qoder</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">Factory Droid</td>
+                      <td><code>droid</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">ZCode</td>
+                      <td><code>zcode</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">DeepSeek Harness</td>
+                      <td><code>dsh</code></td>
+                    </tr>
+                    <tr>
+                      <td translate="no">FreeBuff</td>
+                      <td><code>freebuff</code></td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
               <p>
-                Qoder (<code>qoder</code>), Factory Droid (<code>droid</code>),
-                Trae (<code>trae</code>), ZCode (<code>zcode</code>) and
-                DeepSeek Harness (<code>dsh</code>) are available on repository
-                main; use a source build or a release containing those
-                integrations.
+                <code>droid</code>, <code>dsh</code>, <code>kimi</code>,
+                <code>qoder</code>, <code>trae</code>, <code>workbuddy</code>
+                and <code>zcode</code> require <code>rea-agents@6.5.0</code> or
+                later; <code>freebuff</code> requires
+                <code>rea-agents@6.8.0</code> or later. Older releases reject
+                them as unsupported clients.
               </p>
               <p>
                 <a
@@ -752,7 +785,7 @@ cd rea-work</code></pre>
                       Copy
                     </button>
                   </div>
-                  <pre><code id="grok-bot-command">npx -y rea-agents@6.4.0 mcp</code></pre>
+                  <pre><code id="grok-bot-command">npx -y rea-agents@6.8.0 mcp</code></pre>
                 </div>
                 <p>
                   <a
@@ -1247,13 +1280,14 @@ npx rea-agents@latest setup</code></pre>
                   version and platform requirements.
                 </p>
                 <p>
-                  The macOS headless profile and native GUI bridge require a
+                  The macOS headless profile and native GUI bridge are
+                  included from <code>rea-agents@6.5.0</code>; npm
+                  <code>6.4.0</code> and earlier do not include them. A
                   <a
                     href="https://github.com/morluto/rea/blob/main/CONTRIBUTING.md#development-setup"
                     >REA source build</a
                   >
-                  or a release containing those changes. npm
-                  <code>6.4.0</code> does not include them.
+                  also works.
                 </p>
                 <p>
                   From the built checkout, run
