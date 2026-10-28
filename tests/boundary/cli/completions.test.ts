@@ -3,6 +3,10 @@ import { Cli, z } from "incur";
 import { expect, it } from "vitest";
 
 import { createCliCompletions } from "../../../src/cli/completions.js";
+import {
+  MCP_DOCTOR_ALIAS,
+  MCP_DOCTOR_OPTIONS,
+} from "../../../src/cli/mcpDoctorOptions.js";
 import { workspaceCliTest } from "../../support/cli/workspaceCliFixture.js";
 
 const registry = () =>
@@ -90,6 +94,42 @@ it("uses canonical global flag metadata and retains command options and enum hin
   expect(complete(["rea", "instructions", "--"])).not.toContain("--mcp");
 });
 
+it("offers mcp doctor only the options its own parser accepts", () => {
+  // Doctor dispatches outside Incur and rejects every other global, so the
+  // candidates must equal its declared option schema plus its alias.
+  const declared = Object.keys(MCP_DOCTOR_OPTIONS.shape).map(
+    (key) => `--${key.replaceAll(/[A-Z]/gu, (c) => `-${c.toLowerCase()}`)}`,
+  );
+  expect(declared).toEqual(["--format", "--json", "--full-output", "--help"]);
+  expect(complete(["rea", "mcp", "doctor", "--"])).toEqual(declared);
+  expect(complete(["rea", "mcp", "doctor", "-"])).toEqual([
+    ...declared,
+    ...Object.values(MCP_DOCTOR_ALIAS).map((short) => `-${short}`),
+  ]);
+  expect(complete(["rea", "--json", "mcp", "doctor", "--tok"])).toEqual([]);
+  expect(complete(["rea", "mcp", "doctor", "--format", ""])).toEqual([
+    "toon",
+    "json",
+    "yaml",
+    "md",
+    "jsonl",
+  ]);
+  // Ordinary commands and the sibling builtin keep the standard globals.
+  for (const scope of [["instructions"], ["mcp", "add"]])
+    expect(complete(["rea", ...scope, "--"])).toEqual(
+      expect.arrayContaining([
+        "--format",
+        "--filter-output",
+        "--token-limit",
+        "--token-offset",
+        "--token-count",
+        "--llms",
+        "--schema",
+        "--help",
+      ]),
+    );
+});
+
 it("shares Bash registration across ordinary and protocol routes while retaining builtin precedence", () => {
   const cli = registry();
   let direct = "";
@@ -136,6 +176,10 @@ COMP_WORDS=(rea instructions --format "")
 COMP_CWORD=3
 _incur_complete_rea || exit
 printf 'format=%s\\n' "\${COMPREPLY[*]}"
+COMP_WORDS=(rea mcp doctor --)
+COMP_CWORD=3
+_incur_complete_rea || exit
+printf 'doctor=%s\\n' "\${COMPREPLY[*]}"
 `,
       ],
       {
@@ -152,5 +196,8 @@ printf 'format=%s\\n' "\${COMPREPLY[*]}"
     expect(result.stderr).toBe("");
     expect(result.stdout).toContain("mcp=add doctor\n");
     expect(result.stdout).toContain("format=toon json yaml md jsonl csv tsv\n");
+    expect(result.stdout).toContain(
+      "doctor=--format --json --full-output --help\n",
+    );
   },
 );

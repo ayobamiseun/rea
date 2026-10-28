@@ -9,19 +9,20 @@ import {
   normalizeCliArguments,
   splitIncurBuiltinArguments,
 } from "../cliBuiltinArguments.js";
-import {
-  CLI_DOCUMENT_OUTPUT_FORMATS,
-  CLI_OUTPUT_FORMATS,
-  parseCliOutputArguments,
-} from "../cliOutput.js";
+import { CLI_OUTPUT_FORMATS, parseCliOutputArguments } from "../cliOutput.js";
 import { bashCompletionScript } from "./bashCompletionRegistration.js";
+import {
+  MCP_DOCTOR_ALIAS,
+  MCP_DOCTOR_DESCRIPTION,
+  MCP_DOCTOR_OPTIONS,
+} from "./mcpDoctorOptions.js";
 
 type Commands = Parameters<typeof Completions.complete>[0];
 type CompletionCli = Parameters<typeof Cli.toCommands.get>[0];
 type ServeOptions = NonNullable<Parameters<CompletionCli["serve"]>[1]>;
 const ROOT_FLAGS = new Set(["--mcp", "--update", "--version"]);
 
-const standardGlobals = (root: boolean, doctor: boolean): z.ZodObject =>
+const standardGlobals = (root: boolean): z.ZodObject =>
   z.object(
     Object.fromEntries([
       ...[...VALUED_OUTPUT_FLAGS].map(
@@ -29,11 +30,7 @@ const standardGlobals = (root: boolean, doctor: boolean): z.ZodObject =>
           [
             flag.slice(2),
             flag === "--format"
-              ? z
-                  .enum(
-                    doctor ? CLI_DOCUMENT_OUTPUT_FORMATS : CLI_OUTPUT_FORMATS,
-                  )
-                  .optional()
+              ? z.enum(CLI_OUTPUT_FORMATS).optional()
               : z.string().optional(),
           ] as const,
       ),
@@ -70,7 +67,11 @@ const completionCommands = (cli: CompletionCli): Commands => {
       ],
       [
         "doctor",
-        { description: "Validate MCP server startup and tool listing" },
+        {
+          description: MCP_DOCTOR_DESCRIPTION,
+          options: MCP_DOCTOR_OPTIONS,
+          alias: MCP_DOCTOR_ALIAS,
+        },
       ],
     ]),
   });
@@ -113,18 +114,20 @@ export const createCliCompletions = (
         normalizeCliArguments(words.slice(1, index)),
       ).command;
       const input = [cli.name, ...before, words[index] ?? ""];
+      // Production doctor parses outside Incur and accepts only its declared
+      // options, so Incur's standard globals do not apply to that scope.
+      const doctor = before[0] === "mcp" && before[1] === "doctor";
       const candidates = Completions.complete(
         completionCommands(cli),
         undefined,
         input,
         input.length - 1,
-        {
-          schema: standardGlobals(
-            before.length === 0,
-            before[0] === "mcp" && before[1] === "doctor",
-          ),
-          alias: { help: "h" },
-        },
+        doctor
+          ? undefined
+          : {
+              schema: standardGlobals(before.length === 0),
+              alias: { help: "h" },
+            },
       );
       const result = Completions.format(shell, candidates);
       if (result !== "") write(result);
